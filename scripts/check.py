@@ -9,15 +9,15 @@ SOURCE_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 _jiegou_dict = dict()
 
 def loadJson(file):
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def saveJson(obj, file):
-    with open(file, 'w') as f:
+    with open(file, 'w', encoding='utf-8') as f:
         json.dump(obj, f, ensure_ascii=False, indent=4)
 
 def saveFile(texts, file):
-    with open(file, 'w') as f:
+    with open(file, 'w', encoding='utf-8') as f:
         f.write(texts)
 
 def init():

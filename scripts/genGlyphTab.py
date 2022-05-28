@@ -2,11 +2,22 @@
 # -*- coding:utf-8 -*-
 
 import os
-import check as ch
+import sys
 
+if sys.path.count(os.path.dirname(os.path.realpath(__file__))) == 0:
+    sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
+    import check as ch
+    sys.path = sys.path[1:]
+else:
+    index = sys.path.index(os.path.dirname(os.path.realpath(__file__)))
+    if index != 0:
+        sys.path[0], sys.path[index] = sys.path[index], sys.path[0]
+        import check as ch
+        sys.path[0], sys.path[index] = sys.path[index], sys.path[0]
+    else:
+        import check as ch
 
-def genGlyphTab(path = 'glyph.json'):
-    import sys
+def genGlyphTab(file = 'glyph.json'):
 
     sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
@@ -39,19 +50,19 @@ def genGlyphTab(path = 'glyph.json'):
             small1 = isinstance(comps[0], str) and lrSmall.count(comps[0][0])
             small2 = isinstance(comps[1], str) and lrSmall.count(comps[1][0])
             if small1 == small2:
-                ratio = '(1:1)'
+                ratio = '(1：1)'
             elif small1:
-                ratio = '(1:2)'
+                ratio = '(1：2)'
             elif small2:
-                ratio = '(2:1)'
+                ratio = '(2：1)'
         elif format == '左上包围':
-            ratio = '(v1:1h1:2)'
+            ratio = '(v1：1h1：2)'
             if ltSmall.count(comps[0][0]):
-                ratio = '(v1:2h1:2)'
+                ratio = '(v1：2h1：2)'
         elif format == '左下包围':
-            ratio = '(1:2)'
+            ratio = '(1：2)'
             if isinstance(comps[1], str) and lrSmall.count(comps[1][-1]):
-                ratio = '(1:1)'
+                ratio = '(1：1)'
         elif format == '上下':
             if isinstance(comps[0], dict):
                 if comps[0]['format'] == '左右':
@@ -67,29 +78,29 @@ def genGlyphTab(path = 'glyph.json'):
             if comps[0] == '一' or comps[1] == '一':
                 ratio = '(0)'
             elif small1 == small2:
-                ratio = '(1:1)'
+                ratio = '(1：1)'
             elif small1:
-                ratio = '(1:2)'
+                ratio = '(1：2)'
             elif small2:
-                ratio = '(2:1)'
+                ratio = '(2：1)'
         elif format == '上中下':
             small1 = isinstance(comps[0], str) and tbSmall.count(comps[0][0])
             small2 = isinstance(comps[1], str) and tbSmall.count(comps[1][0])
             small3 = isinstance(comps[2], str) and tbSmall.count(comps[2][0])
 
             if small1 == small2 and small2 == small3:
-                ratio = '(1:1:1)'
+                ratio = '(1：1：1)'
             else:
                 rn = { True: 1, False: 2 }
-                ratio = '(%d:%d:%d)' % (rn[small1], rn[small2], rn[small3])
+                ratio = '(%d：%d：%d)' % (rn[small1], rn[small2], rn[small3])
         elif format == '上三包围':
-            ratio = '(v1:1h1:2)'
+            ratio = '(v1：1h1：2)'
             if ltrSmall.count(comps[0][0]):
-                ratio = '(v1:2h1:2)'
+                ratio = '(v1：2h1：2)'
         elif format == '上半包围':
-            ratio = '(1:1)'
+            ratio = '(1：1)'
             if thSmall.count(comps[0][0]):
-                ratio = '(1:2)'
+                ratio = '(1：2)'
         
         return ratio
 
@@ -183,15 +194,18 @@ def genGlyphTab(path = 'glyph.json'):
         num += len(root)
     print('全部组件: ', num)
 
-    ch.saveJson(glyphTab, path)
+    ch.saveJson(glyphTab, file)
 
 def genGlyphFiles(path='glyph', tabFile='glyph.json'):
+    import re
+
     if not os.path.exists(path):
         os.mkdir(path)
 
     for comp, attr in ch.loadJson(tabFile).items():
         for fmt in attr.keys():
-            tFile = open(os.path.join(path, '%s：%s.svg' % (comp, fmt)), "w")
+            fileName = re.sub('>', '》', os.path.join(path, '%s：%s.svg' % (comp, fmt)))
+            tFile = open(fileName, "w", encoding='utf-8')
             tFile.close()
 
 if __name__ == '__main__':
