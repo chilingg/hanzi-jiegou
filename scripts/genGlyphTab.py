@@ -25,24 +25,26 @@ def genGlyphTab(file = 'glyph.json'):
     glyphTab = dict()
 
     lrSmall2 = '乚丨乙卜匕冫厂刁丁刂刀儿二阝丩几九卩㔾丂力了七人入亻十乂讠又'
-    lrSmall3 = '才叉川寸彳亍巛大凡飞干个工广弓及己巾久彐孑孓口亏么马门女丬乞千犭刃夊三上勺尸士巳扌彡饣氵纟山土乇丸万亡卫兀卂习下乡小忄夕丫也已义于与弋幺丈之子夂'
-    lrSmall4 = '币卞不刅长尺丑歹斗方分夫父丰丐户火见斤巨井开亢六仑木牜廿牛内匹片爿攴攵气欠区犬壬冗日少升手殳礻水太天韦文无五午王冘牙尹尤友予匀允夭爻元月云支止中专曰贝车半宁介'
-    lrSmall5 = '衤钅石禾玉田白目示未立甘生米糸页羊舟虫耒耳肉足言辛圭舌享古求争交正革巴邑百豸𠬝关矢鸟乌骨皀毛冎丘吕戈且旦豆缶'
+    lrSmall3 = '才叉川寸彳亍巛大凡飞干个工广弓及己巾久彐孑孓口亏么马门女丬乞千犭刃夊三上勺尸士巳扌彡饣氵纟山土乇丸万亡卫兀卂习下乡小忄夕丫也已义于与弋幺丈之子夂厶失'
+    lrSmall4 = '币卞不长尺丑歹斗方分夫父丰丐户火见斤井开亢六仑木牜廿牛内匹片爿攴攵气欠区犬壬冗日少升手殳礻水太天韦文无五午王冘牙尹尤友予允夭爻元月云支止中专曰贝车半宁屯𠂤'
+    lrSmall5 = '衤钅石禾玉田白目示未立甘生米糸页羊舟虫耒耳肉足言辛圭舌享古求交正革巴邑百豸关矢鸟乌骨皀毛冎丘吕戈且旦豆缶龺占𢇍㕣匚夬市节釆'
     lrSmall = lrSmall2 + lrSmall3 + lrSmall4 + lrSmall5
-    lrSmalls = [ '归-彐', '印-卩', '新-斤' ]
+    lrSmalls = [ '归-彐', '印-卩', '新-斤', '段-殳', '敢-攵' ]
 
-    tbZero = '一冖亠宀丿艹㓁爫⺮罒人卜'
+    tbZero = '一冖亠宀丿艹㓁爫⺮罒人卜山'
     bZero = '一灬'
-    tbSmall1 = '二厶十卜口三上士工山土亡小少牛亼冃㣺心穴𠫓日曰屮囗巛巾' + tbZero + bZero[1:]
-    tbSmall2 = '乙八匕丁儿几九㔾了七入川大干久乇万兀下卞丫已于之子巳不廿壬午止𣎵廾木雨皿又犬寸石文艸白䜌攵田丌力𤇾夂且火去比王女玉林从立臤羽臼'
+    tbSmall1 = '二厶十卜口三上士工土亡小少牛亼冃㣺心𠫓日曰屮囗巛巾' + tbZero + bZero[1:]
+    tbSmall2 = '乙八匕丁儿几九㔾了七入川大干久乇万兀下卞丫已于子巳不廿壬午止𣎵廾木雨皿又犬寸石文艸白䜌攵田丌力𤇾夂且火去比王女玉林从立臤臼申臣㕣米欠元夕丂贝卉夊覀甘禾乃臥虫天之毌'
     tbSmall = tbSmall1 + tbSmall2
-    tbSmalls = [ '益-皿', '学-子', '高-冋', '甾-田' ]
+    tbSmalls = [ '益-皿', '学-子', '高-冋', '甾-田', '欠-人', '责-贝' ]
 
-    ltSmall = '广厃又尸厂疒毛倝歹㫃才户仁'
+    ltSmall = '广厃又尸厂疒毛㫃才户仁'
+    ltSmall2 = '倝歹'
+    ltLarge = '庚'
 
     ltrSmall = '门凡几目冂宀网产戊'
 
-    thSmall = '癶八人入乃六廾大'
+    thSmall = '癶八人入六廾大穴乃'
 
     def ratioToFormat(format, comps):
         small1 = False
@@ -76,6 +78,10 @@ def genGlyphTab(file = 'glyph.json'):
             ratio = '(v1：1h1：2)'
             if ltSmall.count(comps[0][0]):
                 ratio = '(v1：2h1：2)'
+            elif ltSmall2.count(comps[0][0]):
+                ratio = '(v1：2h1：1)'
+            elif ltLarge.count(comps[0][0]):
+                ratio = '(v2：1h1：2)'
         elif format == '左下包围':
             ratio = '(1：2)'
             if isinstance(comps[1], str) and lrSmall.count(comps[1][-1]):
@@ -98,12 +104,12 @@ def genGlyphTab(file = 'glyph.json'):
                 else:
                     small2 = tbSmall.count(comps[1][0])
             
-            if isinstance(comps[0], str) and tbZero.count(comps[0]):
+            if isinstance(comps[0], str) and tbZero.count(comps[0][0]):
                 if small2:
                     ratio = '(1：2)' 
                 else:
                     ratio = '(0：1)' 
-            elif isinstance(comps[1], str) and bZero.count(comps[1]):
+            elif isinstance(comps[1], str) and bZero.count(comps[1][0]):
                 if small1:
                     ratio = '(2：1)' 
                 else:
@@ -155,7 +161,7 @@ def genGlyphTab(file = 'glyph.json'):
                 elif c[1] != '-':
                     raise Exception('Unexpected expression: ' + c)
             if 'source' in ch._jiegou_dict.get(c, {}):
-                cmd += '>' + c
+                cmd = '>' + c + cmd
                 c = ch._jiegou_dict[c]['source']
 
             fmt = format + ratio + str(i) + cmd
