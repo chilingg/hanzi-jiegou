@@ -25,31 +25,34 @@ def genGlyphTab(file = 'glyph.json'):
     glyphTab = dict()
 
     lrSmall2 = '乚丨乙卜匕冫厂刁丁刂刀儿二阝丩几九卩㔾丂力了七人入亻十乂讠又'
-    lrSmall3 = '才叉川寸彳亍巛大凡飞干个工广弓及己巾久彐孑孓口亏么马门女丬乞千犭刃夊三上勺尸士巳扌彡饣氵纟山土乇丸万亡卫兀卂习下乡小忄夕丫也已义于与弋幺丈之子夂厶失'
-    lrSmall4 = '币卞不长尺丑歹斗方分夫父丰丐户火见斤井开亢六仑木牜廿牛内匹片爿攴攵气欠区犬壬冗日少升手殳礻水太天韦文无五午王冘牙尹尤友予允夭爻元月云支止中专曰贝车半宁屯𠂤'
-    lrSmall5 = '衤钅石禾玉田白目示未立甘生米糸页羊舟虫耒耳肉足言辛圭舌享古求交正革巴邑百豸关矢鸟乌骨皀毛冎丘吕戈且旦豆缶龺占𢇍㕣匚夬市节釆'
+    lrSmall3 = '才叉川寸彳亍巛大凡飞干个工广弓及己巾久彐孑孓口亏么马门女丬乞千犭刃夊三上勺尸士巳扌彡饣氵纟山土乇丸万亡卫兀卂习下乡小忄夕丫已义于与弋幺丈之子夂厶失㇆'
+    lrSmall4 = '币卞不长尺丑歹斗方分夫父丰丐户火见斤井开亢六仑木牜廿牛内匹片爿攴攵气欠区犬壬冗日少升手殳礻水太天韦文无五午王冘牙尹尤友予允夭爻元月云支止中专曰贝车半宁屯𠂤旡冄圼臬'
+    lrSmall5 = '衤钅石禾玉田白目示未立甘生米糸页羊舟虫耒耳肉足言辛圭舌享古求交正革巴邑百豸关矢鸟乌骨皀毛冎丘吕戈且旦豆缶龺占𢇍㡭㕣匚夬市节釆呙寽朿束甲京巨娄卡孚负兰良𡿪各皃吾'
     lrSmall = lrSmall2 + lrSmall3 + lrSmall4 + lrSmall5
     lrSmalls = [ '归-彐', '印-卩', '新-斤', '段-殳', '敢-攵' ]
 
     tbZero = '一冖亠宀丿艹㓁爫⺮罒人卜山'
     bZero = '一灬'
-    tbSmall1 = '二厶十卜口三上士工土亡小少牛亼冃㣺心𠫓日曰屮囗巛巾' + tbZero + bZero[1:]
-    tbSmall2 = '乙八匕丁儿几九㔾了七入川大干久乇万兀下卞丫已于子巳不廿壬午止𣎵廾木雨皿又犬寸石文艸白䜌攵田丌力𤇾夂且火去比王女玉林从立臤臼申臣㕣米欠元夕丂贝卉夊覀甘禾乃臥虫天之毌'
+    tbSmall1 = '二厶十卜口三上士工土亡小少牛亼冃㣺心𠫓日曰屮囗巛巾⺌' + tbZero + bZero[1:]
+    tbSmall2 = '乙八匕丁儿几九㔾了七入川大干久乇万兀下卞丫已于子巳不廿壬午止𣎵廾木雨皿又彐犬寸石文艸白䜌攵田丌力𤇾夂且旦火去比王女玉林从立臤臼申臣㕣米欠元夕丂贝卉夊覀甘禾乃臥虫天之毌此甡甲北加戈刀羽臸示出母䀠疋亚'
     tbSmall = tbSmall1 + tbSmall2
-    tbSmalls = [ '益-皿', '学-子', '高-冋', '甾-田', '欠-人', '责-贝' ]
+    tbSmalls = [ '益-皿', '高-冋', '甾-田', '欠-人', '责-贝', '贵-贝', '会-亼', '昔-日', '琴-今' ]
+    tbLarge = '满赣楙襄匿'
 
     ltSmall = '广厃又尸厂疒毛㫃才户仁'
     ltSmall2 = '倝歹'
-    ltLarge = '庚'
+    ltLarge = '庚㾜'
 
     ltrSmall = '门凡几目冂宀网产戊'
 
-    thSmall = '癶八人入六廾大穴乃'
+    thSmall = '癶八人入六廾大穴乃学身'
 
     def ratioToFormat(format, comps):
         small1 = False
         small2 = False
         small3 = False
+        large1 = False
+        large2 = False
         ratio = ''
         
         if format == '左右':
@@ -58,15 +61,15 @@ def genGlyphTab(file = 'glyph.json'):
                     small1 = lrSmalls.count(comps[0])
                 else:
                     small1 = lrSmall.count(comps[0][0])
-            elif comps[0]['format'] == '上下':
-                    small1 = lrSmall.count(comps[0]['components'][0]) and lrSmall.count(comps[0]['components'][1])
+            # elif comps[0]['format'] == '上下':
+            #         small1 = lrSmall.count(comps[0]['components'][0]) and lrSmall.count(comps[0]['components'][1])
             if isinstance(comps[1], str):
                 if comps[1][1:2] == '-':
                     small2 = lrSmalls.count(comps[1])
                 else:
                     small2 = lrSmall.count(comps[1][0])
-            elif comps[1]['format'] == '上下':
-                    small2 = lrSmall.count(comps[1]['components'][0]) and lrSmall.count(comps[1]['components'][1])
+            # elif comps[1]['format'] == '上下':
+            #         small2 = lrSmall.count(comps[1]['components'][0]) and lrSmall.count(comps[1]['components'][1])
 
             if small1 == small2:
                 ratio = '(1：1)'
@@ -90,36 +93,45 @@ def genGlyphTab(file = 'glyph.json'):
             if isinstance(comps[0], dict):
                 if comps[0]['format'] == '左右':
                     small1 = tbSmall.count(comps[0]['components'][0]) and tbSmall.count(comps[0]['components'][1])
+                    large1 = tbLarge.count(comps[0]['components'][0]) or tbLarge.count(comps[0]['components'][1])
             else:
                 if comps[0][1:2] == '-':
                     small1 = tbSmalls.count(comps[0])
+                    large1 = tbLarge.count(comps[0])
                 else:
-                    small1 = tbSmall.count(comps[0][0])
+                    small1 = tbSmall.count(comps[0][-1])
+                    large1 = tbLarge.count(comps[0][-1])
             if isinstance(comps[1], dict):
                 if comps[1]['format'] == '左右':
                     small2 = tbSmall.count(comps[1]['components'][0]) and tbSmall.count(comps[1]['components'][1])
+                    large2 = tbLarge.count(comps[1]['components'][0]) or tbLarge.count(comps[1]['components'][1])
             else:
                 if comps[1][1:2] == '-':
                     small2 = tbSmalls.count(comps[1])
+                    large2 = tbLarge.count(comps[1])
                 else:
-                    small2 = tbSmall.count(comps[1][0])
+                    small2 = tbSmall.count(comps[1][-1])
+                    large2 = tbLarge.count(comps[1][-1])
             
             if isinstance(comps[0], str) and tbZero.count(comps[0][0]):
-                if small2:
+                if small2 and comps[0] != '一':
                     ratio = '(1：2)' 
                 else:
                     ratio = '(0：1)' 
             elif isinstance(comps[1], str) and bZero.count(comps[1][0]):
-                if small1:
-                    ratio = '(2：1)' 
-                else:
                     ratio = '(1：0)'
             elif small1 == small2:
                 ratio = '(1：1)'
             elif small1:
-                ratio = '(1：2)'
+                if large2:
+                    ratio = '(0：1)'
+                else:
+                    ratio = '(1：2)'
             elif small2:
-                ratio = '(2：1)'
+                if large1:
+                    ratio = '(1：0)'
+                else:
+                    ratio = '(2：1)'
         elif format == '上中下':
             small1 = isinstance(comps[0], str) and tbSmall.count(comps[0][0]) + tbZero.count(comps[0][0])
             small2 = isinstance(comps[1], str) and tbSmall.count(comps[1][0]) + tbZero.count(comps[1][0])
@@ -152,6 +164,9 @@ def genGlyphTab(file = 'glyph.json'):
             if isinstance(c, dict):
                 recursionQuery(char, c['format'], '%s%s%d' % (format, ratio, i), c['components'], command)
                 continue
+            # elif c in ch._jiegou_dict and ch._jiegou_dict[c]['format'] != '单体' and (c not in ch._jiegou_dict[c]['components']):
+            #     recursionQuery(char, ch._jiegou_dict[c]['format'], '%s%s%d' % (format, ratio, i), ch._jiegou_dict[c]['components'], command)
+            #     continue
 
             cmd = command
             if len(c) > 1:
