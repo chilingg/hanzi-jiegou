@@ -78,8 +78,8 @@ def check():
         elif None in arrts['components'] and char in arrts['components']:
             compList.add(char)
         else:
-            if char in arrts['components']:
-                raise Exception('Error Recursive component!')
+            # if char in arrts['components']:
+            #     raise Exception('Error Recursive component!')
             recursionQuery(arrts['format'], arrts['components'])
 
     print('components:\n', compList)
