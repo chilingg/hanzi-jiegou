@@ -25,27 +25,29 @@ def genGlyphTab(file = 'glyph.json'):
     glyphTab = dict()
 
     lrSmall2 = '乚丨乙卜匕冫厂刁丁刂刀儿二阝丩几九卩㔾丂力了七人入亻十乂讠又'
-    lrSmall3 = '才叉川寸彳亍巛大凡飞干个工广弓及己巾久彐孑孓口亏么马门女丬乞千犭刃夊三上勺尸士巳扌彡饣氵纟山土乇丸万亡卫兀卂习下乡小忄夕丫已义于与弋幺丈之子夂厶失㇆'
-    lrSmall4 = '币卞不长尺丑歹斗方分夫父丰丐户火见斤井开亢六仑木牜廿牛内匹片爿攴攵气欠区犬壬冗日少升手殳礻水太天韦文无五午王冘牙尹尤友予允夭爻元月云支止中专曰贝车半宁屯𠂤旡冄圼臬'
-    lrSmall5 = '衤钅石禾玉田白目示未立甘生米糸页羊舟虫耒耳肉足言辛圭舌享古求交正革巴邑百豸关矢鸟乌骨皀毛冎丘吕戈且旦豆缶龺占𢇍㡭㕣匚夬市节釆呙寽朿束甲京巨娄卡孚负兰良𡿪各皃吾'
+    lrSmall3 = '才叉川寸彳亍巛大凡飞干个工广弓及己巾久彐孑孓口亏么马女丬千犭刃夊三上勺尸巳扌彡饣氵纟山土乇丸万亡卫兀习下乡小忄夕丫已义于与弋幺丈之子夂厶失㇆'
+    lrSmall4 = '币卞不长尺丑歹斗方分夫父丰丐户火见斤井开亢六仑木牜廿牛内匹片爿攴攵欠区犬日少升手殳礻水太天韦文无五午王冘牙尤友予允夭爻元月云支止中曰贝车半宁屯𠂤旡冄圼臬瓦身去𠤏尗术卢'
+    lrSmall5 = '衤钅石禾玉田白目示未立甘生米糸页羊舟虫耒耳肉足言辛圭舌享古求交正革巴邑百豸关矢鸟乌骨皀毛冎丘吕戈且旦豆缶龺占𢇍㡭㕣匚夬市巿节釆呙寽朿束甲京巨娄卡孚负兰良𡿪各皃吾丕步亲刍肖男帀司其屰寺𧴪鱼秃系里𦣞豙㐆仒肙乍宅召贞朱𠂔左艮'
     lrSmall = lrSmall2 + lrSmall3 + lrSmall4 + lrSmall5
-    lrSmalls = [ '归-彐', '印-卩', '新-斤', '段-殳', '敢-攵' ]
+    lrSmalls = [ '归-彐', '印-卩', '新-斤', '段-殳', '敢-攵', '辟-辛', '制-刂' ]
 
-    tbZero = '一冖亠宀丿艹㓁爫⺮罒人卜山'
-    bZero = '一灬'
-    tbSmall1 = '二厶十卜口三上士工土亡小少牛亼冃㣺心𠫓日曰屮囗巛巾⺌' + tbZero + bZero[1:]
-    tbSmall2 = '乙八匕丁儿几九㔾了七入川大干久乇万兀下卞丫已于子巳不廿壬午止𣎵廾木雨皿又彐犬寸石文艸白䜌攵田丌力𤇾夂且旦火去比王女玉林从立臤臼申臣㕣米欠元夕丂贝卉夊覀甘禾乃臥虫天之毌此甡甲北加戈刀羽臸示出母䀠疋亚'
+    tbZero = '一冖亠宀丿艹㓁爫⺮罒人卜山⺌囗⺈'
+    bZero = '一灬冫'
+    tbSmall1 = '二厶十口三上士工土亡小少牛亼冃㣺心𠫓日曰屮囗巛巾' + tbZero + bZero[1:]
+    tbSmall2 = '乙八匕丁儿几九㔾了七入川大干久乇万兀下卞丫已于子巳不廿壬午止𣎵廾木雨皿又彐犬寸石文艸白䜌攵田丌力𤇾夂且旦火去比王女玉林从立臤臼申臣米欠元夕丂贝卉夊覀甘禾乃臥虫天之毌此甲北加戈刀羽臸示出母䀠疋亚並䇂匹𠂹甶禸西古巩'
     tbSmall = tbSmall1 + tbSmall2
-    tbSmalls = [ '益-皿', '高-冋', '甾-田', '欠-人', '责-贝', '贵-贝', '会-亼', '昔-日', '琴-今' ]
-    tbLarge = '满赣楙襄匿'
+    tbSmalls = [ '益-皿', '高-冋', '甾-田', '欠-人', '责-贝', '贵-贝', '会-亼', '昔-日', '琴-今', '畏-甶', '璺-玉', '熏-黑', '齿-止' ]
+    tbLarge = '满赣楙襄匿㕡孰薜薛雍俞算酋'
 
     ltSmall = '广厃又尸厂疒毛㫃才户仁'
-    ltSmall2 = '倝歹'
-    ltLarge = '庚㾜'
+    ltSmall2 = '倝歹攸'
+    ltLarge = '庚㾜鹿'
 
-    ltrSmall = '门凡几目冂宀网产戊'
+    ltrSmall = '门凡几目冂宀网'
+    ltrSmallRL = '戊戉戕'
 
-    thSmall = '癶八人入六廾大穴乃学身'
+    thSmall = '癶八人入六廾大穴乃学身六'
+    thLarge = '𡨄'
 
     def ratioToFormat(format, comps):
         small1 = False
@@ -53,6 +55,8 @@ def genGlyphTab(file = 'glyph.json'):
         small3 = False
         large1 = False
         large2 = False
+        zero1 = False
+        zero2 = False
         ratio = ''
         
         if format == '左右':
@@ -87,7 +91,7 @@ def genGlyphTab(file = 'glyph.json'):
                 ratio = '(v2：1h1：2)'
         elif format == '左下包围':
             ratio = '(1：2)'
-            if isinstance(comps[1], str) and lrSmall.count(comps[1][-1]):
+            if isinstance(comps[1], str) and lrSmall.count(comps[1][0]):
                 ratio = '(1：1)'
         elif format == '上下':
             if isinstance(comps[0], dict):
@@ -98,9 +102,11 @@ def genGlyphTab(file = 'glyph.json'):
                 if comps[0][1:2] == '-':
                     small1 = tbSmalls.count(comps[0])
                     large1 = tbLarge.count(comps[0])
+                    zero1 = tbZero.count(comps[0])
                 else:
                     small1 = tbSmall.count(comps[0][-1])
                     large1 = tbLarge.count(comps[0][-1])
+                    zero1 = tbZero.count(comps[0][-1])
             if isinstance(comps[1], dict):
                 if comps[1]['format'] == '左右':
                     small2 = tbSmall.count(comps[1]['components'][0]) and tbSmall.count(comps[1]['components'][1])
@@ -109,16 +115,18 @@ def genGlyphTab(file = 'glyph.json'):
                 if comps[1][1:2] == '-':
                     small2 = tbSmalls.count(comps[1])
                     large2 = tbLarge.count(comps[1])
+                    zero2 = bZero.count(comps[1])
                 else:
                     small2 = tbSmall.count(comps[1][-1])
                     large2 = tbLarge.count(comps[1][-1])
+                    zero2 = bZero.count(comps[1][-1])
             
-            if isinstance(comps[0], str) and tbZero.count(comps[0][0]):
-                if small2 and comps[0] != '一':
+            if isinstance(comps[0], str) and zero1:
+                if small2 and '一⺌'.count(comps[0]) == 0:
                     ratio = '(1：2)' 
                 else:
                     ratio = '(0：1)' 
-            elif isinstance(comps[1], str) and bZero.count(comps[1][0]):
+            elif isinstance(comps[1], str) and zero2:
                     ratio = '(1：0)'
             elif small1 == small2:
                 ratio = '(1：1)'
@@ -133,9 +141,21 @@ def genGlyphTab(file = 'glyph.json'):
                 else:
                     ratio = '(2：1)'
         elif format == '上中下':
-            small1 = isinstance(comps[0], str) and tbSmall.count(comps[0][0]) + tbZero.count(comps[0][0])
-            small2 = isinstance(comps[1], str) and tbSmall.count(comps[1][0]) + tbZero.count(comps[1][0])
-            small3 = isinstance(comps[2], str) and tbSmall.count(comps[2][0]) + tbZero.count(comps[2][0])
+            if isinstance(comps[0], dict):
+                if comps[0]['format'] == '左右':
+                    small1 = tbSmall.count(comps[0]['components'][0]) and tbSmall.count(comps[0]['components'][1])
+            else:
+                small1 = tbSmall.count(comps[0][0]) + tbZero.count(comps[0][0])
+            if isinstance(comps[1], dict):
+                if comps[1]['format'] == '左右':
+                    small2 = tbSmall.count(comps[1]['components'][0]) and tbSmall.count(comps[1]['components'][1])
+            else:
+                small2 = tbSmall.count(comps[1][0]) + tbZero.count(comps[1][0])
+            if isinstance(comps[2], dict):
+                if comps[2]['format'] == '左右':
+                    small3 = tbSmall.count(comps[2]['components'][0]) and tbSmall.count(comps[2]['components'][1])
+            else:
+                small3 = tbSmall.count(comps[2][0]) + tbZero.count(comps[2][0])
 
             if small1 == small2 and small2 == small3:
                 ratio = '(1：1：1)'
@@ -146,10 +166,14 @@ def genGlyphTab(file = 'glyph.json'):
             ratio = '(v1：1h1：2)'
             if ltrSmall.count(comps[0][0]):
                 ratio = '(v1：2h1：2)'
+            elif ltrSmallRL.count(comps[0][0]):
+                ratio = '(v1：2h1：2：2)'
         elif format == '上半包围':
             ratio = '(1：1)'
             if thSmall.count(comps[0][0]):
                 ratio = '(1：2)'
+            elif thLarge.count(comps[0][0]):
+                ratio = '(2：1)'
         
         return ratio
 
