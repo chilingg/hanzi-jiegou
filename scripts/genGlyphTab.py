@@ -3,6 +3,7 @@
 
 import os
 import sys
+import copy
 
 if sys.path.count(os.path.dirname(os.path.realpath(__file__))) == 0:
     sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
@@ -20,9 +21,39 @@ else:
 def genGlyphTab(file = 'glyph.json'):
 
     sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-
     ch.init()
     glyphTab = dict()
+
+    # 此开关控制是否区分来源不同的同型部件，如“朦”与“胺”的“月”部，后者来源于“肉”
+    # 除非打算梳理构造表，否则不建议关掉此Flag
+    variantChar = True
+
+    rCompTab = {
+        '左右': 
+        {
+            1: set([ '乚', '丨', '乙', '卜', '匕', '冫', '厂', '刁', '丁', '刂', '刀', '儿', '二', '阝', '丩', '几', '九', '卩', '㔾', '丂', '力', '了', '七', '人', '入', '亻', '十', '乂', '讠', '又', '才', '叉', '川', '寸', '彳', '亍', '巛', '大', '凡', '飞', '干', '个', '工', '广', '弓', '及', '己', '巾', '久', '彐', '孑', '孓', '口', '亏', '么', '马', '女', '丬', '千', '犭', '刃', '夊', '三', '上', '勺', '尸', '巳', '扌', '彡', '饣', '氵', '纟', '山', '土', '乇', '丸', '万', '亡', '卫', '兀', '习', '下', '乡', '小', '忄', '夕', '丫', '已', '义', '于', '与', '弋', '幺', '丈', '之', '子', '夂', '厶', '失', '㇆', '币', '卞', '不', '长', '尺', '丑', '歹', '斗', '方', '分', '夫', '父', '丰', '丐', '户', '火', '见', '斤', '井', '开', '亢', '六', '仑', '木', '牜', '廿', '牛', '内', '匹', '片', '爿', '攴', '攵', '欠', '区', '犬', '日', '少', '升', '手', '殳', '礻', '水', '太', '天', '韦', '文', '无', '五', '午', '王', '冘', '牙', '尤', '友', '予', '允', '夭', '爻', '元', '月', '云', '支', '止', '中', '曰', '贝', '车', '半', '宁', '屯', '𠂤', '旡', '冄', '圼', '臬', '瓦', '身', '去', '𠤏', '尗', '术', '卢', '衤', '钅', '石', '禾', '玉', '田', '白', '目', '示', '未', '立', '甘', '生', '米', '糸', '页', '羊', '舟', '虫', '耒', '耳', '肉', '足', '言', '辛', '圭', '舌', '享', '古', '求', '交', '正', '革', '巴', '邑', '百', '豸', '关', '矢', '鸟', '乌', '骨', '皀', '毛', '冎', '丘', '吕', '戈', '且', '旦', '豆', '缶', '龺', '占', '𢇍', '㡭', '㕣', '匚', '夬', '市', '巿', '节', '釆', '呙', '寽', '朿', '束', '甲', '京', '巨', '娄', '卡', '孚', '负', '兰', '良', '𡿪', '各', '皃', '吾', '丕', '步', '亲', '刍', '肖', '男', '帀', '司', '其', '屰', '寺', '𧴪', '鱼', '秃', '系', '里', '𦣞', '豙', '㐆', '仒', '肙', '乍', '宅', '召', '贞', '朱', '𠂔', '左', '艮', '另', '〢', '仌', '归-彐', '印-卩', '新-斤', '段-殳', '敢-攵', '辟-辛', '制-刂' ])
+        },
+        '上下': {
+            1: set([ '一', '冖', '亠', '宀', '丿', '艹', '㓁', '爫', '⺮', '罒', '人', '卜', '山', '⺌', '囗', '⺈' ]),
+            2: set([ '一', '灬', '冫' ]),
+            4: set([ '一', '冖', '亠', '宀', '丿', '艹', '㓁', '爫', '⺮', '罒', '人', '卜', '山', '⺌', '囗', '⺈', '灬', '冫', '二', '厶', '十', '口', '三', '上', '士', '工', '土', '亡', '小', '少', '牛', '亼', '冃', '㣺', '心', '𠫓', '日', '曰', '屮', '囗', '巛', '巾', '乙', '八', '匕', '丁', '儿', '几', '九', '㔾', '了', '七', '入', '川', '大', '干', '久', '乇', '万', '兀', '下', '卞', '丫', '已', '于', '子', '巳', '不', '廿', '壬', '午', '止', '𣎵', '廾', '木', '雨', '皿', '又', '彐', '犬', '寸', '石', '文', '艸', '白', '䜌', '攵', '田', '丌', '力', '𤇾', '夂', '且', '旦', '火', '去', '比', '王', '女', '玉', '林', '从', '立', '臤', '臼', '申', '臣', '米', '欠', '元', '夕', '丂', '贝', '卉', '夊', '覀', '甘', '禾', '乃', '臥', '虫', '天', '之', '毌', '此', '甲', '北', '加', '戈', '刀', '羽', '臸', '示', '出', '母', '䀠', '疋', '亚', '並', '䇂', '匹', '𠂹', '甶', '禸', '西', '古', '巩', '益-皿', '高-冋', '甾-田', '欠-人', '责-贝', '贵-贝', '会-亼', '昔-日', '琴-今', '畏-甶', '璺-玉', '熏-黑', '齿-止' ]),
+            8: set([ '满', '赣', '楙', '襄', '匿', '㕡', '孰', '薜', '薛', '雍', '俞', '算', '酋' ]),
+            16: set([ '一', '⺌' ])
+        },
+        '左上包围': {
+            1: set([ '广', '厃', '又', '尸', '厂', '疒', '毛', '㫃', '才', '户', '仁', '𠂆' ]),
+            2: set([ '倝', '歹', '攸' ]),
+            4: set([ '庚', '㾜', '鹿' ])
+        },
+        '上三包围': {
+            1: set([ '门', '凡', '几', '目', '冂', '宀', '网' ]),
+            2: set([ '戊', '戉', '戕' ])
+        },
+        '上半包围': {
+            1: set([ '癶', '八', '人', '入', '六', '廾', '大', '穴', '乃', '学', '身', '六' ]),
+            2: set([ '𡨄' ])
+        }
+    }
 
     lrSmall2 = '乚丨乙卜匕冫厂刁丁刂刀儿二阝丩几九卩㔾丂力了七人入亻十乂讠又'
     lrSmall3 = '才叉川寸彳亍巛大凡飞干个工广弓及己巾久彐孑孓口亏么马女丬千犭刃夊三上勺尸巳扌彡饣氵纟山土乇丸万亡卫兀习下乡小忄夕丫已义于与弋幺丈之子夂厶失㇆'
@@ -39,7 +70,7 @@ def genGlyphTab(file = 'glyph.json'):
     tbSmalls = [ '益-皿', '高-冋', '甾-田', '欠-人', '责-贝', '贵-贝', '会-亼', '昔-日', '琴-今', '畏-甶', '璺-玉', '熏-黑', '齿-止' ]
     tbLarge = '满赣楙襄匿㕡孰薜薛雍俞算酋'
 
-    ltSmall = '广厃又尸厂疒毛㫃才户仁'
+    ltSmall = '广厃又尸厂疒毛㫃才户仁𠂆'
     ltSmall2 = '倝歹攸'
     ltLarge = '庚㾜鹿'
 
@@ -57,122 +88,88 @@ def genGlyphTab(file = 'glyph.json'):
         large2 = False
         zero1 = False
         zero2 = False
-        ratio = ''
-        
-        if format == '左右':
-            if isinstance(comps[0], str):
-                if comps[0][1:2] == '-':
-                    small1 = lrSmalls.count(comps[0])
-                else:
-                    small1 = lrSmall.count(comps[0][0])
-            # elif comps[0]['format'] == '上下':
-            #         small1 = lrSmall.count(comps[0]['components'][0]) and lrSmall.count(comps[0]['components'][1])
-            if isinstance(comps[1], str):
-                if comps[1][1:2] == '-':
-                    small2 = lrSmalls.count(comps[1])
-                else:
-                    small2 = lrSmall.count(comps[1][0])
-            # elif comps[1]['format'] == '上下':
-            #         small2 = lrSmall.count(comps[1]['components'][0]) and lrSmall.count(comps[1]['components'][1])
 
-            if small1 == small2:
+        flags = [ 0, 0, 0 ]
+        ratio = ''
+
+        temp = []
+        for comp in comps:
+            if isinstance(comp, str) and comp[1:2] == '>':
+                temp.append(comp[-1])
+            else:
+                temp.append(comp)
+        comps = temp
+        
+        fmt = format
+        if format == '左下包围':
+            fmt = '左右'
+        elif format == '上中下':
+            fmt = '上下'
+
+        for i in range(0, len(comps)):
+            for f, cList in rCompTab.get(fmt, {}).items():
+                if isinstance(comps[i], dict) and fmt == '上下' and comps[i]['format'] == '左右':
+                    if comps[i]['components'][0] in rCompTab['上下'][4] and comps[i]['components'][1] in rCompTab['上下'][4]:
+                        flags[i] |= 4
+                elif isinstance(comps[i], str) and comps[i] in cList:
+                    flags[i] |= f
+
+        if format == '左右':
+            if flags[0] == flags[1]:
                 ratio = '(1：1)'
-            elif small1:
+            elif flags[0]:
                 ratio = '(1：2)'
-            elif small2:
+            elif flags[1]:
                 ratio = '(2：1)'
         elif format == '左上包围':
             ratio = '(v1：1h1：2)'
-            if ltSmall.count(comps[0][0]):
+            if flags[0] == 1:
                 ratio = '(v1：2h1：2)'
-            elif ltSmall2.count(comps[0][0]):
+            elif flags[0] == 2:
                 ratio = '(v1：2h1：1)'
-            elif ltLarge.count(comps[0][0]):
+            elif flags[0] == 4:
                 ratio = '(v2：1h1：2)'
         elif format == '左下包围':
             ratio = '(1：2)'
-            if isinstance(comps[1], str) and lrSmall.count(comps[1][0]):
+            if flags[1]:
                 ratio = '(1：1)'
         elif format == '上下':
-            if isinstance(comps[0], dict):
-                if comps[0]['format'] == '左右':
-                    small1 = tbSmall.count(comps[0]['components'][0]) and tbSmall.count(comps[0]['components'][1])
-                    large1 = tbLarge.count(comps[0]['components'][0]) or tbLarge.count(comps[0]['components'][1])
-            else:
-                if comps[0][1:2] == '-':
-                    small1 = tbSmalls.count(comps[0])
-                    large1 = tbLarge.count(comps[0])
-                    zero1 = tbZero.count(comps[0])
+            if flags[0] & 1:
+                if (flags[1] & 4) and (flags[0] & 16) == 0:
+                    ratio = '(1：2)'
                 else:
-                    small1 = tbSmall.count(comps[0][-1])
-                    large1 = tbLarge.count(comps[0][-1])
-                    zero1 = tbZero.count(comps[0][-1])
-            if isinstance(comps[1], dict):
-                if comps[1]['format'] == '左右':
-                    small2 = tbSmall.count(comps[1]['components'][0]) and tbSmall.count(comps[1]['components'][1])
-                    large2 = tbLarge.count(comps[1]['components'][0]) or tbLarge.count(comps[1]['components'][1])
-            else:
-                if comps[1][1:2] == '-':
-                    small2 = tbSmalls.count(comps[1])
-                    large2 = tbLarge.count(comps[1])
-                    zero2 = bZero.count(comps[1])
-                else:
-                    small2 = tbSmall.count(comps[1][-1])
-                    large2 = tbLarge.count(comps[1][-1])
-                    zero2 = bZero.count(comps[1][-1])
-            
-            if isinstance(comps[0], str) and zero1:
-                if small2 and '一⺌'.count(comps[0]) == 0:
-                    ratio = '(1：2)' 
-                else:
-                    ratio = '(0：1)' 
-            elif isinstance(comps[1], str) and zero2:
-                    ratio = '(1：0)'
-            elif small1 == small2:
+                    ratio = '(0：1)'
+            elif flags[1] & 2:
+                ratio = '(1：0)'
+            elif (flags[0] & 4) == (flags[1] & 4):
                 ratio = '(1：1)'
-            elif small1:
-                if large2:
+            elif (flags[0] & 4):
+                if flags[1] & 8:
                     ratio = '(0：1)'
                 else:
                     ratio = '(1：2)'
-            elif small2:
-                if large1:
+            elif (flags[1] & 4):
+                if flags[0] & 8:
                     ratio = '(1：0)'
                 else:
                     ratio = '(2：1)'
         elif format == '上中下':
-            if isinstance(comps[0], dict):
-                if comps[0]['format'] == '左右':
-                    small1 = tbSmall.count(comps[0]['components'][0]) and tbSmall.count(comps[0]['components'][1])
-            else:
-                small1 = tbSmall.count(comps[0][0]) + tbZero.count(comps[0][0])
-            if isinstance(comps[1], dict):
-                if comps[1]['format'] == '左右':
-                    small2 = tbSmall.count(comps[1]['components'][0]) and tbSmall.count(comps[1]['components'][1])
-            else:
-                small2 = tbSmall.count(comps[1][0]) + tbZero.count(comps[1][0])
-            if isinstance(comps[2], dict):
-                if comps[2]['format'] == '左右':
-                    small3 = tbSmall.count(comps[2]['components'][0]) and tbSmall.count(comps[2]['components'][1])
-            else:
-                small3 = tbSmall.count(comps[2][0]) + tbZero.count(comps[2][0])
-
-            if small1 == small2 and small2 == small3:
+            if (flags[0] & 5) == (flags[1] & 5) and (flags[2] & 5) == (flags[1] & 5):
                 ratio = '(1：1：1)'
             else:
-                rn = { 2: 0, 1: 1, 0: 2 }
-                ratio = '(%d：%d：%d)' % (rn[small1], rn[small2], rn[small3])
+                rn = { 5: 0, 6: 0, 7: 0, 4: 1, 0: 2 }
+                ratio = '(%d：%d：%d)' % (rn[flags[0] & 5], rn[flags[1] & 5], rn[flags[2] & 7])
         elif format == '上三包围':
             ratio = '(v1：1h1：2)'
-            if ltrSmall.count(comps[0][0]):
+            if flags[0] == 1:
                 ratio = '(v1：2h1：2)'
-            elif ltrSmallRL.count(comps[0][0]):
+            elif flags[0] == 2:
                 ratio = '(v1：2h1：2：2)'
         elif format == '上半包围':
             ratio = '(1：1)'
-            if thSmall.count(comps[0][0]):
+            if flags[0] == 1:
                 ratio = '(1：2)'
-            elif thLarge.count(comps[0][0]):
+            elif flags[0] == 2:
                 ratio = '(2：1)'
         
         return ratio
@@ -195,7 +192,8 @@ def genGlyphTab(file = 'glyph.json'):
             cmd = command
             if len(c) > 1:
                 if c[1] == '>':
-                    cmd = command + c[1:]
+                    if variantChar:
+                        cmd = command + c[1:]
                     c = c[0]
                 elif c[1] != '-':
                     raise Exception('Unexpected expression: ' + c)
