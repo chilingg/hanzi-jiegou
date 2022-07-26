@@ -1,34 +1,18 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 
-import os
-import sys
-import copy
+# ---------------- 分类规则配置 START ----------------
 
-if sys.path.count(os.path.dirname(os.path.realpath(__file__))) == 0:
-    sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
-    import check as ch
-    sys.path = sys.path[1:]
-else:
-    index = sys.path.index(os.path.dirname(os.path.realpath(__file__)))
-    if index != 0:
-        sys.path[0], sys.path[index] = sys.path[index], sys.path[0]
-        import check as ch
-        sys.path[0], sys.path[index] = sys.path[index], sys.path[0]
-    else:
-        import check as ch
-
-def genGlyphTab(file = 'glyph.json'):
-
-    sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-    ch.init()
-    glyphTab = dict()
-
+_compClassTab = {
     # 此开关控制是否区分来源不同的同型部件，如“朦”与“胺”的“月”部，后者来源于“肉”
+    # 若对变体部件做区分，则生成文件以{源部件}：{格式}》{变体部件}的形式做标注
     # 除非打算梳理构造表，否则不建议关掉此Flag
-    variantChar = True
+    "variantChar": True,
 
-    rCompTab = {
+    # 部件分类表
+    # 每一个集合的序号需选取为从1起2的次方数，即1、2、4、8、16、32……
+    # 部件集合为该结构下有别于默认格式的部件
+    "rCompTab": {
         '左右': 
         {
             1: set([ '乚', '丨', '乙', '卜', '匕', '冫', '厂', '刁', '丁', '刂', '刀', '儿', '二', '阝', '丩', '几', '九', '卩', '㔾', '丂', '力', '了', '七', '人', '入', '亻', '十', '乂', '讠', '又', '才', '叉', '川', '寸', '彳', '亍', '巛', '大', '凡', '飞', '干', '个', '工', '广', '弓', '及', '己', '巾', '久', '彐', '孑', '孓', '口', '亏', '么', '马', '女', '丬', '千', '犭', '刃', '夊', '三', '上', '勺', '尸', '巳', '扌', '彡', '饣', '氵', '纟', '山', '土', '乇', '丸', '万', '亡', '卫', '兀', '习', '下', '乡', '小', '忄', '夕', '丫', '已', '义', '于', '与', '弋', '幺', '丈', '之', '子', '夂', '厶', '失', '㇆', '币', '卞', '不', '长', '尺', '丑', '歹', '斗', '方', '分', '夫', '父', '丰', '丐', '户', '火', '见', '斤', '井', '开', '亢', '六', '仑', '木', '牜', '廿', '牛', '内', '匹', '片', '爿', '攴', '攵', '欠', '区', '犬', '日', '少', '升', '手', '殳', '礻', '水', '太', '天', '韦', '文', '无', '五', '午', '王', '冘', '牙', '尤', '友', '予', '允', '夭', '爻', '元', '月', '云', '支', '止', '中', '曰', '贝', '车', '半', '宁', '屯', '𠂤', '旡', '冄', '圼', '臬', '瓦', '身', '去', '𠤏', '尗', '术', '卢', '衤', '钅', '石', '禾', '玉', '田', '白', '目', '示', '未', '立', '甘', '生', '米', '糸', '页', '羊', '舟', '虫', '耒', '耳', '肉', '足', '言', '辛', '圭', '舌', '享', '古', '求', '交', '正', '革', '巴', '邑', '百', '豸', '关', '矢', '鸟', '乌', '骨', '皀', '毛', '冎', '丘', '吕', '戈', '且', '旦', '豆', '缶', '龺', '占', '𢇍', '㡭', '㕣', '匚', '夬', '市', '巿', '节', '釆', '呙', '寽', '朿', '束', '甲', '京', '巨', '娄', '卡', '孚', '负', '兰', '良', '𡿪', '各', '皃', '吾', '丕', '步', '亲', '刍', '肖', '男', '帀', '司', '其', '屰', '寺', '𧴪', '鱼', '秃', '系', '里', '𦣞', '豙', '㐆', '仒', '肙', '乍', '宅', '召', '贞', '朱', '𠂔', '左', '艮', '另', '〢', '仌', '归-彐', '印-卩', '新-斤', '段-殳', '敢-攵', '辟-辛', '制-刂' ])
@@ -53,9 +37,126 @@ def genGlyphTab(file = 'glyph.json'):
             1: set([ '癶', '八', '人', '入', '六', '廾', '大', '穴', '乃', '学', '身', '六' ]),
             2: set([ '𡨄' ])
         }
+    },
+
+    # 在此标注借用其他结构分类表的结构
+    # e.g 左下包围结构需要特殊对待的部件与左右结构相同
+    "sameCompTab": {
+        '左下包围': '左右',
+        '上中下': '上下',
+    },
+
+    # 复合结构判定，决定是否对hanzi-jiegou.json中记录的复合结构做判定
+    # 默认直接判定为默认部件
+    # e.g “森”字下部件为“木”“木”，“木”部件处于部件分类表上下结构的4集合中，符合(左4, 右4)，所以得到下表定义的（第三个）4
+    "recursionTab": {
+        '上下': {
+            '左右': [
+                [ (4, 4), 4 ]
+            ]
+        }
+    },
+
+    # 部件组合判定表，数据格式为[ (主部件, 次部件), '结构说明' ]
+    # 0代表默认部件，即不在部件分类表rCompTab中的部件
+    # -1代表任意部件
+    # 多个集合用'|'分隔，如（1 | 2, 4 | 8），只要部件存在于其中一个集合即可通过判定
+    # 判定列表是有序的，请务必考虑好判定的优先级
+    "cCompTab": {
+        '左右': [
+            [ (0, 0), '(1：1)' ],
+            [ (1, 1), '(1：1)' ],
+            [ (1, 0), '(1：2)' ],
+            [ (0, 1), '(2：1)' ]
+        ],
+        '左上包围': [
+            [ (1, -1), '(v1：2h1：2)' ],
+            [ (2, -1), '(v1：2h1：1)' ],
+            [ (4, -1), '(v2：1h1：2)' ],
+            [ (0, -1), '(v1：1h1：2)' ]
+        ],
+        '左下包围': [
+            [ (-1, 1), '(1：1)' ],
+            [ (-1, 0), '(1：2)' ]
+        ],
+        '上下': [
+            [ (16, 4), '(0：1)' ],
+            [ (1, 4), '(1：2)' ],
+            [ (1, -1), '(0：1)' ],
+            [ (-1, 2), '(1：0)' ],
+            [ (4, 4), '(1：1)' ],
+            [ (4, 8), '(0：1)' ],
+            [ (4, -1), '(1：2)' ],
+            [ (8, 4), '(1：0)' ],
+            [ (-1, 4), '(2：1)' ],
+            [ (-1, -1), '(1：1)' ]
+        ],
+        # 上中下结构对应的结果太多, 依据情况添加即可
+        '上中下': [
+            [ (1, 4, 0), '(0：1：2)' ],
+            [ (1, 0, 0), '(0：2：2)' ],
+            [ (1, 0, 4), '(0：2：1)' ],
+            [ (1, 1, 4), '(0：0：1)' ],
+            [ (0, 4, 2), '(2：1：0)' ],
+            [ (1, 4, 1), '(0：1：0)' ],
+            [ (0, 4, 0), '(2：1：2)' ],
+            [ (4, 0, 1 | 2), '(1：2：0)' ],
+            [ (4, 1, 4), '(1：0：1)' ],
+            [ (4, 4, 4), '(1：1：1)' ],
+            [ (4, 0, 4), '(1：2：1)' ],
+            [ (0, 0, 4), '(2：2：1)' ],
+            [ (4, 4, 0), '(1：1：2)' ],
+            [ (0, 4, 4), '(2：0：0)' ]
+        ],
+        '上三包围': [
+            [ (1, -1), '(v1：2h1：2)' ],
+            [ (2, -1), '(v1：2h1：2：2)' ],
+            [ (-1, -1), '(v1：1h1：2)' ]
+        ],
+        '上半包围': [
+            [ (1, -1), '(1：2)' ],
+            [ (2, -1), '(2：1)' ],
+            [ (-1, -1), '(1：1)' ]
+        ]
     }
+}
+
+# ---------------- 分类规则配置 END ----------------
+
+import os
+import sys
+
+if sys.path.count(os.path.dirname(os.path.realpath(__file__))) == 0:
+    sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
+    import check as ch
+    sys.path = sys.path[1:]
+else:
+    index = sys.path.index(os.path.dirname(os.path.realpath(__file__)))
+    if index != 0:
+        sys.path[0], sys.path[index] = sys.path[index], sys.path[0]
+        import check as ch
+        sys.path[0], sys.path[index] = sys.path[index], sys.path[0]
+    else:
+        import check as ch
+
+def genGlyphTab(file = 'glyph.json', compClassTab = None):
+    if compClassTab == None: compClassTab = _compClassTab
+    
+    cCompTab = compClassTab['cCompTab']
+    sameCompTab = compClassTab['sameCompTab']
+    rCompTab = compClassTab['rCompTab']
+    recursionTab = compClassTab['recursionTab']
+    variantChar = compClassTab['variantChar']
+
+    sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+    ch.init()
+    glyphTab = dict()
 
     def ratioToFormat(format, comps):
+        # 不在在判定表中的结构返回空串
+        if format not in cCompTab:
+            return ''
+
         flags = [ 0, 0, 0 ]
         ratio = ''
 
@@ -68,77 +169,31 @@ def genGlyphTab(file = 'glyph.json'):
         comps = temp
         
         fmt = format
-        if format == '左下包围':
-            fmt = '左右'
-        elif format == '上中下':
-            fmt = '上下'
+        if fmt in sameCompTab:
+            fmt = sameCompTab[fmt]
 
         for i in range(0, len(comps)):
             for f, cList in rCompTab.get(fmt, {}).items():
-                if isinstance(comps[i], dict) and fmt == '上下' and comps[i]['format'] == '左右':
-                    if comps[i]['components'][0] in rCompTab['上下'][4] and comps[i]['components'][1] in rCompTab['上下'][4]:
-                        flags[i] |= 4
+                if isinstance(comps[i], dict) and fmt in recursionTab and comps[i]['format'] in recursionTab[fmt]:
+                    for rRule in recursionTab[fmt][comps[i]['format']]:
+                        ok = True
+                        for j in range(0, len(rRule[0])):
+                            ok &= rRule[0][j] == -1 or comps[i]['components'][j] in rCompTab[fmt][rRule[0][j]]
+                        if ok:
+                            flags[i] |= rRule[1]
                 elif isinstance(comps[i], str) and comps[i] in cList:
                     flags[i] |= f
 
-        if format == '左右':
-            if flags[0] == flags[1]:
-                ratio = '(1：1)'
-            elif flags[0]:
-                ratio = '(1：2)'
-            elif flags[1]:
-                ratio = '(2：1)'
-        elif format == '左上包围':
-            ratio = '(v1：1h1：2)'
-            if flags[0] == 1:
-                ratio = '(v1：2h1：2)'
-            elif flags[0] == 2:
-                ratio = '(v1：2h1：1)'
-            elif flags[0] == 4:
-                ratio = '(v2：1h1：2)'
-        elif format == '左下包围':
-            ratio = '(1：2)'
-            if flags[1]:
-                ratio = '(1：1)'
-        elif format == '上下':
-            if flags[0] & 1:
-                if (flags[1] & 4) and (flags[0] & 16) == 0:
-                    ratio = '(1：2)'
-                else:
-                    ratio = '(0：1)'
-            elif flags[1] & 2:
-                ratio = '(1：0)'
-            elif (flags[0] & 4) == (flags[1] & 4):
-                ratio = '(1：1)'
-            elif (flags[0] & 4):
-                if flags[1] & 8:
-                    ratio = '(0：1)'
-                else:
-                    ratio = '(1：2)'
-            elif (flags[1] & 4):
-                if flags[0] & 8:
-                    ratio = '(1：0)'
-                else:
-                    ratio = '(2：1)'
-        elif format == '上中下':
-            if (flags[0] & 5) == (flags[1] & 5) and (flags[2] & 5) == (flags[1] & 5):
-                ratio = '(1：1：1)'
-            else:
-                rn = { 5: 0, 6: 0, 7: 0, 4: 1, 0: 2 }
-                ratio = '(%d：%d：%d)' % (rn[flags[0] & 5], rn[flags[1] & 5], rn[flags[2] & 7])
-        elif format == '上三包围':
-            ratio = '(v1：1h1：2)'
-            if flags[0] == 1:
-                ratio = '(v1：2h1：2)'
-            elif flags[0] == 2:
-                ratio = '(v1：2h1：2：2)'
-        elif format == '上半包围':
-            ratio = '(1：1)'
-            if flags[0] == 1:
-                ratio = '(1：2)'
-            elif flags[0] == 2:
-                ratio = '(2：1)'
-        
+        i = 0
+        while True:
+            ok = True
+            for j in range(0, len(cCompTab[format][i][0])):
+                ok &= (cCompTab[format][i][0][j] & flags[j]) != 0 or cCompTab[format][i][0][j] == flags[j] or cCompTab[format][i][0][j] == -1
+            if ok:
+                ratio = cCompTab[format][i][1]
+                break
+            i += 1
+            
         return ratio
 
     def recursionQuery(char, format, pFormat, comps, command):
@@ -161,7 +216,9 @@ def genGlyphTab(file = 'glyph.json'):
                 if c[1] == '>':
                     if variantChar:
                         cmd = command + c[1:]
-                    c = c[0]
+                        c = c[0]
+                    else:
+                        c = c[-1]
                 elif c[1] != '-':
                     raise Exception('Unexpected expression: ' + c)
             if 'source' in ch._jiegou_dict.get(c, {}):
@@ -177,7 +234,7 @@ def genGlyphTab(file = 'glyph.json'):
                 content[fmt] = char
 
     for char, attrs in ch._jiegou_dict.items():
-        if attrs["format"] == '单体':
+        if attrs['format'] == '单体':
             if 'source' in attrs:
                 glyphTab.setdefault(attrs['source'], dict())['>'+char] = char
             else:
@@ -257,7 +314,7 @@ def genGlyphFiles(path='glyph', tabFile='glyph.json'):
             fileName = re.sub('>', '》',  '%s：%s.svg' % (comp, fmt))
             fileList.add(fileName)
             if fileName not in oldFiles:
-                tFile = open(os.path.join(path, fileName), "w", encoding='utf-8')
+                tFile = open(os.path.join(path, fileName), 'w', encoding='utf-8')
                 tFile.close()
     
     return fileList
