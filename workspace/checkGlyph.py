@@ -7,15 +7,15 @@ FILE_PATH = os.path.dirname(os.path.realpath(__file__))
 PROJECT_PATH = os.path.dirname(FILE_PATH)
 COMP_PATH =   os.path.join(FILE_PATH, 'components')
 GLYPHTAB_FILE_PATH = os.path.join(FILE_PATH, 'glyph.json')
-TEST_FILE_PATH = os.path.join(FILE_PATH, 'glyphs')
+CHEKC_FILE_PATH = os.path.join(FILE_PATH, 'glyphs')
 
-def checkGlyph():
+def checkGlyph(checkFilePath=CHEKC_FILE_PATH, compPath=COMP_PATH):
     def loadJson(file):
         with open(file, 'r', encoding='utf-8') as f:
             return json.load(f)
 
-    if not os.path.exists(TEST_FILE_PATH):
-        os.mkdir(TEST_FILE_PATH)
+    if not os.path.exists(checkFilePath):
+        os.mkdir(checkFilePath)
 
     LIB = os.path.join(PROJECT_PATH, 'clsvg')
     if os.path.exists(LIB):
@@ -25,7 +25,7 @@ def checkGlyph():
     from clsvg import bezierShape
 
     glyphTable = loadJson(GLYPHTAB_FILE_PATH)
-    fileList = os.listdir(COMP_PATH)
+    fileList = os.listdir(compPath)
     charsList = {}
 
     count = 0
@@ -39,7 +39,7 @@ def checkGlyph():
                 count += 1
                 #print('(%d/%d)Process %s ...' % (count, len(fileList), fileName))
 
-            tree = svgfile.parse(os.path.join(COMP_PATH, fileName))
+            tree = svgfile.parse(os.path.join(compPath, fileName))
             root = tree.getroot()
 
             shape = []
@@ -54,7 +54,7 @@ def checkGlyph():
                 charsList[char].extend(shape)
 
     count = 0
-    fileList = set(os.listdir(TEST_FILE_PATH))
+    fileList = set(os.listdir(checkFilePath))
     for char, shape in charsList.items():
         count += 1
         #print('(%d/%d)Generating %s ...' % (count, len(charsList), char))
@@ -71,9 +71,9 @@ def checkGlyph():
 
         fileName = char + '.svg'
         fileList.discard(fileName)
-        newTree.write(os.path.join(TEST_FILE_PATH, char + '.svg'), encoding = "utf-8", xml_declaration = True)
+        newTree.write(os.path.join(checkFilePath, char + '.svg'), encoding = "utf-8", xml_declaration = True)
     
-    for file in fileList: os.remove(os.path.join(TEST_FILE_PATH, file))
+    for file in fileList: os.remove(os.path.join(checkFilePath, file))
 
 if __name__ == '__main__':
     checkGlyph()
