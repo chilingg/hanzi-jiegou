@@ -68439,5 +68439,3707 @@
             "查"
         ],
         "explain": []
+    },
+    "玥": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "月"
+        ],
+        "explain": ""
+    },
+    "龺": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "巉": {
+        "format": "左右",
+        "components": [
+            "山",
+            "毚"
+        ],
+        "explain": ""
+    },
+    "毚": {
+        "format": "上下",
+        "components": [
+            "㲋",
+            "兔"
+        ],
+        "explain": ""
+    },
+    "郤": {
+        "format": "左右",
+        "components": [
+            "谷",
+            "邑>阝"
+        ],
+        "explain": "郤：晉大夫叔虎邑也。从邑，谷聲。"
+    },
+    "罒": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "藠": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "皛"
+        ],
+        "explain": ""
+    },
+    "皛": {
+        "format": "上下",
+        "components": [
+            "白",
+            {
+                "format": "左右",
+                "components": [
+                    "白",
+                    "白"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "匜": {
+        "format": "左三包围",
+        "components": [
+            "匚",
+            "也"
+        ],
+        "explain": "匜：似羹魁，柄中有道可以注水。从匚，也聲。"
+    },
+    "異": {
+        "format": "上下",
+        "components": [
+            "畀>田",
+            "廾>共"
+        ],
+        "explain": "異：分也。从廾从畀。畀，予也。凡異之屬皆从異。"
+    },
+    "冋": {
+        "format": "上三包围",
+        "components": [
+            "冂",
+            "口"
+        ],
+        "explain": ""
+    },
+    "棥": {
+        "format": "左中右",
+        "components": [
+            "木",
+            "爻",
+            "木"
+        ],
+        "explain": ""
+    },
+    "屵": {
+        "format": "上下",
+        "components": [
+            "山",
+            "厂"
+        ],
+        "explain": "屵：岸高也。从山、厂，厂亦聲。凡屵之屬皆从屵。"
+    },
+    "呣": {
+        "format": "左右",
+        "components": [
+            "口",
+            "母"
+        ],
+        "explain": ""
+    },
+    "芼": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "毛"
+        ],
+        "explain": "芼：艸覆蔓。从艸，毛聲。《詩》曰：左右芼之。"
+    },
+    "炘": {
+        "format": "左右",
+        "components": [
+            "火",
+            "斤"
+        ],
+        "explain": ""
+    },
+    "㒼": {
+        "format": "上下",
+        "components": [
+            "廿",
+            "㒳"
+        ],
+        "explain": ""
+    },
+    "氾": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "㔾"
+        ],
+        "explain": "氾：濫也。从水，㔾聲。"
+    },
+    "圡": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "土"
+    },
+    "昉": {
+        "format": "左右",
+        "components": [
+            "日",
+            "方"
+        ],
+        "explain": "昉：明也。从日，方聲。"
+    },
+    "㝉": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "宁"
+    },
+    "咅": {
+        "format": "上下",
+        "components": [
+            "不>立",
+            "口"
+        ],
+        "explain": ""
+    },
+    "𡿪": {
+        "format": "上下",
+        "components": [
+            "巛",
+            "歹>夕"
+        ],
+        "explain": ""
+    },
+    "坒": {
+        "format": "上下",
+        "components": [
+            "比",
+            "土"
+        ],
+        "explain": "坒：地相次比也。衛大夫貞子名坒。从土，比聲。"
+    },
+    "𦐇": {
+        "format": "上下",
+        "components": [
+            "冃",
+            "羽"
+        ],
+        "explain": ""
+    },
+    "沚": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "止"
+        ],
+        "explain": "沚：小渚曰沚。从水，止聲。《詩》曰：于沼于沚。"
+    },
+    "𧴪": {
+        "format": "上下",
+        "components": [
+            "小>⺌",
+            "贝"
+        ],
+        "explain": ""
+    },
+    "畗": {
+        "format": "上下",
+        "components": [
+            "高-冋",
+            "田"
+        ],
+        "explain": ""
+    },
+    "熥": {
+        "format": "左右",
+        "components": [
+            "火",
+            "通"
+        ],
+        "explain": ""
+    },
+    "𢼄": {
+        "format": "左右",
+        "components": [
+            "户",
+            "攵"
+        ],
+        "explain": ""
+    },
+    "粦": {
+        "format": "上下",
+        "components": [
+            "炎>米",
+            "舛"
+        ],
+        "explain": ""
+    },
+    "號": {
+        "format": "左右",
+        "components": [
+            "号",
+            "虎"
+        ],
+        "explain": "號：呼也。从号从虎。"
+    },
+    "拑": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "甘"
+        ],
+        "explain": "拑：脅持也。从手，甘聲。"
+    },
+    "睘": {
+        "format": "上下",
+        "components": [
+            "目>罒",
+            "哀-丶"
+        ],
+        "explain": "睘：目驚視也。从目，袁聲。《詩》曰：獨行瞏瞏。"
+    },
+    "垱": {
+        "format": "左右",
+        "components": [
+            "土",
+            "当"
+        ],
+        "explain": ""
+    },
+    "𠂹": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "彧": {
+        "format": "右上包围",
+        "components": [
+            "彧-口一",
+            {
+                "format": "上下",
+                "components": [
+                    "口",
+                    "一"
+                ]
+            }
+        ],
+        "explain": "彧：水流也。从川，或聲。"
+    },
+    "夌": {
+        "format": "上下",
+        "components": [
+            "𡴆",
+            "夊>夂"
+        ],
+        "explain": "夌：越也。从夊从𡴆。𡴆，高也。一曰：夌𢕌也。"
+    },
+    "靸": {
+        "format": "左右",
+        "components": [
+            "革",
+            "及"
+        ],
+        "explain": "靸：小兒履也。从革，及聲。讀若沓。"
+    },
+    "訚": {
+        "format": "上三包围",
+        "components": [
+            "门",
+            "言"
+        ],
+        "explain": ""
+    },
+    "鸮": {
+        "format": "左右",
+        "components": [
+            "号",
+            "鸟"
+        ],
+        "explain": ""
+    },
+    "牜": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "牛"
+    },
+    "⺮": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "牛"
+    },
+    "镴": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "巤"
+        ],
+        "explain": ""
+    },
+    "饹": {
+        "format": "左右",
+        "components": [
+            "饣",
+            "各"
+        ],
+        "explain": ""
+    },
+    "豖": {
+        "format": "单体",
+        "components": [],
+        "explain": "豖：豕絆足行豖豖。从豕，繫二足。",
+        "source": "豕"
+    },
+    "祾": {
+        "format": "左右",
+        "components": [
+            "礻",
+            "夌"
+        ],
+        "explain": ""
+    },
+    "褟": {
+        "format": "左右",
+        "components": [
+            "衤",
+            "𦐇"
+        ],
+        "explain": ""
+    },
+    "靿": {
+        "format": "左右",
+        "components": [
+            "革",
+            "幼"
+        ],
+        "explain": ""
+    },
+    "乚": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "臺": {
+        "format": "上中下",
+        "components": [
+            "之>十",
+            "高-冋",
+            "至"
+        ],
+        "explain": "臺：觀四方而高者。从至从之从高省，與室、屋同意。"
+    },
+    "戉": {
+        "format": "右上包围",
+        "components": [
+            "戈",
+            "𠄌"
+        ],
+        "explain": "戉：斧也。从戈，𠄌聲。《司馬法》曰：夏執玄戉，殷執白戚，周左杖黃戉，右秉白旄。凡戉之屬皆从戉。"
+    },
+    "孨": {
+        "format": "上下",
+        "components": [
+            "子",
+            {
+                "format": "左右",
+                "components": [
+                    "子",
+                    "子"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "寽": {
+        "format": "上下",
+        "components": [
+            "爫",
+            "寸"
+        ],
+        "explain": "寽：五指持也。从𠬪，一聲。讀若律。"
+    },
+    "㐭": {
+        "format": "上下",
+        "components": [
+            "亠",
+            "回"
+        ],
+        "explain": ""
+    },
+    "捯": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "到"
+        ],
+        "explain": ""
+    },
+    "屰": {
+        "format": "单体",
+        "components": [],
+        "explain": "屰：不順也。从干下屮，屰之也。"
+    },
+    "叕": {
+        "format": "上下",
+        "components": [
+            {
+                "format": "左右",
+                "components": [
+                    "又",
+                    "又"
+                ]
+            },
+            {
+                "format": "左右",
+                "components": [
+                    "又",
+                    "又"
+                ]
+            }
+        ],
+        "explain": "叕：綴聯也。象形。凡叕之屬皆从叕。"
+    },
+    "冄": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "䇂": {
+        "format": "单体",
+        "components": [],
+        "explain": "䇂：辠也。从干、𠄞。𠄞，古文上字。凡䇂之屬皆从䇂。讀若愆。張林說。"
+    },
+    "賏": {
+        "format": "左右",
+        "components": [
+            "貝",
+            "貝"
+        ],
+        "explain": "賏：頸飾也。从二貝。"
+    },
+    "叒": {
+        "format": "上下",
+        "components": [
+            "又",
+            {
+                "format": "左右",
+                "components": [
+                    "又",
+                    "又"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "跶": {
+        "format": "左右",
+        "components": [
+            "足",
+            "达"
+        ],
+        "explain": ""
+    },
+    "浥": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "邑"
+        ],
+        "explain": "浥：溼也。从水，邑聲。"
+    },
+    "湉": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "恬"
+        ],
+        "explain": ""
+    },
+    "臽": {
+        "format": "上下",
+        "components": [
+            "人>⺈",
+            "臼"
+        ],
+        "explain": ""
+    },
+    "牤": {
+        "format": "左右",
+        "components": [
+            "牜",
+            "亡"
+        ],
+        "explain": ""
+    },
+    "冊": {
+        "format": "单体",
+        "components": [],
+        "explain": "𠕋：符命也。諸侯進受於王也。象其札一長一短，中有二編之形。凡冊之屬皆从冊。"
+    },
+    "𣬉": {
+        "format": "上下",
+        "components": [
+            "囟",
+            "比"
+        ],
+        "explain": ""
+    },
+    "㧟": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "汇"
+        ],
+        "explain": ""
+    },
+    "牂": {
+        "format": "左右",
+        "components": [
+            "爿",
+            "羊"
+        ],
+        "explain": "牂：牡羊也。从羊，爿聲。"
+    },
+    "丩": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "澥": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "解"
+        ],
+        "explain": "澥：郣澥，海之別名。从水，解聲。一說：澥即澥谷也。"
+    },
+    "镸": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "幹": {
+        "format": "左上包围",
+        "components": [
+            "倝",
+            "干"
+        ],
+        "explain": ""
+    },
+    "陏": {
+        "format": "左右",
+        "components": [
+            "阝",
+            "有"
+        ],
+        "explain": ""
+    },
+    "柈": {
+        "format": "左右",
+        "components": [
+            "木",
+            "半"
+        ],
+        "explain": ""
+    },
+    "奭": {
+        "format": "单体",
+        "components": [],
+        "explain": "奭：盛也。从大从皕，皕亦聲。此燕召公名。讀若郝。《史篇》名醜。"
+    },
+    "㫗": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "劼": {
+        "format": "左右",
+        "components": [
+            "吉",
+            "力"
+        ],
+        "explain": "劼：愼也。从力，吉聲。《周書》曰：汝劼毖殷獻臣。"
+    },
+    "仌": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "喦": {
+        "format": "单体",
+        "components": [],
+        "explain": "喦：多言也。从品相連。《春秋傳》曰：次于喦北。讀與聶同。"
+    },
+    "琯": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "官"
+        ],
+        "explain": "管：如篪，六孔，十二月之音，物開地牙，故謂之管。从竹，官聲。"
+    },
+    "牁": {
+        "format": "左右",
+        "components": [
+            "爿",
+            "可"
+        ],
+        "explain": ""
+    },
+    "靺": {
+        "format": "左右",
+        "components": [
+            "革",
+            "末"
+        ],
+        "explain": ""
+    },
+    "乂": {
+        "format": "单体",
+        "components": [],
+        "explain": "乂：芟艸也。从丿从乀相交。"
+    },
+    "熜": {
+        "format": "左右",
+        "components": [
+            "火",
+            "悤"
+        ],
+        "explain": "熜：然麻蒸也。从火，悤聲。"
+    },
+    "厾": {
+        "format": "右上包围",
+        "components": [
+            "乁",
+            "去"
+        ],
+        "explain": ""
+    },
+    "嵖": {
+        "format": "左右",
+        "components": [
+            "山",
+            "查"
+        ],
+        "explain": ""
+    },
+    "夬": {
+        "format": "单体",
+        "components": [],
+        "explain": "叏：分決也。从又、[𠃍一丨]，象決形。"
+    },
+    "㨨": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "留"
+        ],
+        "explain": ""
+    },
+    "媷": {
+        "format": "左右",
+        "components": [
+            "女",
+            "辱"
+        ],
+        "explain": ""
+    },
+    "豊": {
+        "format": "上下",
+        "components": [
+            "豊>曲",
+            "豆"
+        ],
+        "explain": "豊：行禮之器也。从豆，象形。凡豊之屬皆从豊。讀與禮同。"
+    },
+    "丵": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "壯": {
+        "format": "左右",
+        "components": [
+            "爿",
+            "士"
+        ],
+        "explain": "壯：大也。从士，爿聲。"
+    },
+    "圼": {
+        "format": "上下",
+        "components": [
+            "日",
+            "土"
+        ],
+        "explain": ""
+    },
+    "锜": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "奇"
+        ],
+        "explain": ""
+    },
+    "㣎": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "匃": {
+        "format": "右上包围",
+        "components": [
+            "勹",
+            "亾"
+        ],
+        "explain": ""
+    },
+    "眬": {
+        "format": "左右",
+        "components": [
+            "目",
+            "龙"
+        ],
+        "explain": ""
+    },
+    "赟": {
+        "format": "上下",
+        "components": [
+            "斌",
+            "贝"
+        ],
+        "explain": ""
+    },
+    "玦": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "夬"
+        ],
+        "explain": "玦：玉佩也。从玉，夬聲。"
+    },
+    "啚": {
+        "format": "上下",
+        "components": [
+            "口",
+            "㐭"
+        ],
+        "explain": "啚：啬也。从囗、㐭。㐭，受也。"
+    },
+    "鞬": {
+        "format": "左右",
+        "components": [
+            "革",
+            "建"
+        ],
+        "explain": "鞬：所以戢弓矢。从革，建聲。"
+    },
+    "咢": {
+        "format": "上下",
+        "components": [
+            {
+                "format": "左右",
+                "components": [
+                    "口",
+                    "口"
+                ]
+            },
+            "亏"
+        ],
+        "explain": "㖾：譁訟也。从吅，屰聲。"
+    },
+    "䍃": {
+        "format": "上下",
+        "components": [
+            "爫",
+            "缶"
+        ],
+        "explain": ""
+    },
+    "镚": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "崩"
+        ],
+        "explain": ""
+    },
+    "挦": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "寻"
+        ],
+        "explain": ""
+    },
+    "旡": {
+        "format": "单体",
+        "components": [],
+        "explain": "旡：㱃食气屰不得息曰旡。从反欠。凡旡之屬皆从旡。"
+    },
+    "𠫓": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "㝵": {
+        "format": "上下",
+        "components": [
+            "贝>旦",
+            "寸"
+        ],
+        "explain": ""
+    },
+    "匸": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "玕": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "干"
+        ],
+        "explain": "玕：琅玕也。从玉，干聲。《禹貢》：雝州球琳琅玕。"
+    },
+    "𣥂": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "剋": {
+        "format": "左下包围",
+        "components": [
+            "克",
+            "刂"
+        ],
+        "explain": ""
+    },
+    "𡨄": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "冝": {
+        "format": "上下",
+        "components": [
+            "冖",
+            "肉>且"
+        ],
+        "explain": ""
+    },
+    "穵": {
+        "format": "上下",
+        "components": [
+            "穴",
+            "乙"
+        ],
+        "explain": "穵：空大也。从穴，乙聲。"
+    },
+    "怱": {
+        "format": "上下",
+        "components": [
+            "匆",
+            "心"
+        ],
+        "explain": ""
+    },
+    "畟": {
+        "format": "上中下",
+        "components": [
+            "田",
+            "儿",
+            "夊>夂"
+        ],
+        "explain": "畟：治稼畟畟進也。从田、人，从夊。《詩》曰：畟畟良耜。"
+    },
+    "𠂆": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "喿": {
+        "format": "上下",
+        "components": [
+            "品",
+            "木"
+        ],
+        "explain": "喿：鳥羣鳴也。从品在木上。"
+    },
+    "巜": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "〢": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "镵": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "毚"
+        ],
+        "explain": ""
+    },
+    "瘆": {
+        "format": "左上包围",
+        "components": [
+            "疒",
+            "参"
+        ],
+        "explain": ""
+    },
+    "𡮂": {
+        "format": "上中下",
+        "components": [
+            "小",
+            "白",
+            "小"
+        ],
+        "explain": ""
+    },
+    "麥": {
+        "format": "上下",
+        "components": [
+            "來",
+            "夊>夂"
+        ],
+        "explain": "麥：芒穀，秋穜厚薶，故謂之麥。麥，金也。金王而生，火王而死。从來有穗者，从夊。凡麥之屬皆从麥。"
+    },
+    "單": {
+        "format": "上下",
+        "components": [
+            "吅",
+            "𠦆"
+        ],
+        "explain": "單：大也。从吅、𠦆，吅亦聲。闕。"
+    },
+    "倝": {
+        "format": "左右",
+        "components": [
+            "龺",
+            "入>人"
+        ],
+        "explain": "倝：日始出，光倝倝也。从旦，㫃聲。凡倝之屬皆从倝。"
+    },
+    "璟": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "景"
+        ],
+        "explain": ""
+    },
+    "䁖": {
+        "format": "左右",
+        "components": [
+            "目",
+            "娄"
+        ],
+        "explain": ""
+    },
+    "惇": {
+        "format": "左右",
+        "components": [
+            "忄",
+            "享"
+        ],
+        "explain": "惇：厚也。从心，𦎧聲。"
+    },
+    "膙": {
+        "format": "左右",
+        "components": [
+            "月",
+            "強"
+        ],
+        "explain": ""
+    },
+    "𠤏": {
+        "format": "上下",
+        "components": [
+            "匕",
+            "十"
+        ],
+        "explain": ""
+    },
+    "㕡": {
+        "format": "右上包围",
+        "components": [
+            "𣦼",
+            "谷"
+        ],
+        "explain": ""
+    },
+    "亶": {
+        "format": "上下",
+        "components": [
+            "㐭",
+            "旦"
+        ],
+        "explain": "亶：多穀也。从㐭，旦聲。"
+    },
+    "⺈": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "丂": {
+        "format": "单体",
+        "components": [],
+        "explain": "丂：气欲舒出，ㄅ上礙於一也。丂，古文以爲亏字，又以爲巧字。凡丂之屬皆从丂。"
+    },
+    "皃": {
+        "format": "上下",
+        "components": [
+            "白",
+            "儿"
+        ],
+        "explain": ""
+    },
+    "眔": {
+        "format": "上下",
+        "components": [
+            "目>罒",
+            "眔-罒"
+        ],
+        "explain": "眔：目相及也。从目从隶省。"
+    },
+    "夗": {
+        "format": "左右",
+        "components": [
+            "夕",
+            "㔾"
+        ],
+        "explain": "夗：轉臥也。从夕从卩，臥有卩也。"
+    },
+    "𠀠": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "拤": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "卡"
+        ],
+        "explain": ""
+    },
+    "覀": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "昜": {
+        "format": "上中下",
+        "components": [
+            "日",
+            "一",
+            "勿"
+        ],
+        "explain": "昜：開也。从日一勿。一曰：飛揚。一曰：長也。一曰：彊者眾皃。"
+    },
+    "竑": {
+        "format": "左右",
+        "components": [
+            "立",
+            "厷"
+        ],
+        "explain": ""
+    },
+    "毌": {
+        "format": "单体",
+        "components": [],
+        "explain": "毌：穿物持之也。从一橫貫，象寶貨之形。凡毌之屬皆从毌。讀若冠。"
+    },
+    "嚄": {
+        "format": "左右",
+        "components": [
+            "口",
+            "蒦"
+        ],
+        "explain": ""
+    },
+    "䏌": {
+        "format": "上下",
+        "components": [
+            "八",
+            "肉>月"
+        ],
+        "explain": ""
+    },
+    "𡗗": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "卬": {
+        "format": "左右",
+        "components": [
+            "卬-卩",
+            "卩"
+        ],
+        "explain": "卬：望欲有所庶及也。从匕从卩。《詩》曰：高山卬止。"
+    },
+    "𣊡": {
+        "format": "上下",
+        "components": [
+            "日",
+            "絲"
+        ],
+        "explain": ""
+    },
+    "𣪠": {
+        "format": "左右",
+        "components": [
+            "𣪠-殳",
+            "殳"
+        ],
+        "explain": ""
+    },
+    "巟": {
+        "format": "上下",
+        "components": [
+            "亡",
+            "川"
+        ],
+        "explain": "巟：水廣也。从川，亡聲。《易》曰：包巟用馮河。"
+    },
+    "罽": {
+        "format": "上下",
+        "components": [
+            "网>罒",
+            "㓹"
+        ],
+        "explain": "罽：魚网也。从网，㓹聲。㓹，籀文銳。"
+    },
+    "彑": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "耑": {
+        "format": "单体",
+        "components": [],
+        "explain": "耑：物初生之題也。上象生形，下象其根也。凡耑之屬皆从耑。"
+    },
+    "骎": {
+        "format": "左右",
+        "components": [
+            "马",
+            {
+                "format": "上下",
+                "components": [
+                    "帚",
+                    "又"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "㾜": {
+        "format": "左上包围",
+        "components": [
+            "疒",
+            "夾"
+        ],
+        "explain": ""
+    },
+    "㔾": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "屚": {
+        "format": "左上包围",
+        "components": [
+            "尸",
+            "雨"
+        ],
+        "explain": ""
+    },
+    "仒": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "仌"
+    },
+    "𠑹": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "臜": {
+        "format": "左右",
+        "components": [
+            "月",
+            "赞"
+        ],
+        "explain": ""
+    },
+    "鞧": {
+        "format": "左右",
+        "components": [
+            "革",
+            "酋"
+        ],
+        "explain": ""
+    },
+    "冃": {
+        "format": "上三包围",
+        "components": [
+            "冂",
+            "二"
+        ],
+        "explain": ""
+    },
+    "釆": {
+        "format": "单体",
+        "components": [],
+        "explain": "釆：辨別也。象獸指爪分別也。凡釆之屬皆从釆。讀若辨。"
+    },
+    "𦣻": {
+        "format": "上下",
+        "components": [
+            "一",
+            "自"
+        ],
+        "explain": ""
+    },
+    "㸒": {
+        "format": "上下",
+        "components": [
+            "爫",
+            "𡈼"
+        ],
+        "explain": ""
+    },
+    "𠂇": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "厽": {
+        "format": "上下",
+        "components": [
+            "厶",
+            {
+                "format": "左右",
+                "components": [
+                    "厶",
+                    "厶"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "㓞": {
+        "format": "左右",
+        "components": [
+            "丯",
+            "刀"
+        ],
+        "explain": "㓞：巧㓞也。从刀，丯聲。凡㓞之屬皆从㓞。"
+    },
+    "𡕩": {
+        "format": "上中下",
+        "components": [
+            "囟",
+            "儿",
+            "夊"
+        ],
+        "explain": ""
+    },
+    "妟": {
+        "format": "上下",
+        "components": [
+            "日",
+            "女"
+        ],
+        "explain": ""
+    },
+    "亼": {
+        "format": "上下",
+        "components": [
+            "入",
+            "一"
+        ],
+        "explain": "亼：三合也。从入、一，象三合之形。凡亼之屬皆从亼。讀若集。"
+    },
+    "睪": {
+        "format": "上下",
+        "components": [
+            "目>罒",
+            "幸"
+        ],
+        "explain": "睪：目視也。从橫目从㚔。令吏將目捕罪人也。"
+    },
+    "琇": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "秀"
+        ],
+        "explain": ""
+    },
+    "鹮": {
+        "format": "左右",
+        "components": [
+            "睘",
+            "鸟"
+        ],
+        "explain": ""
+    },
+    "𥻗": {
+        "format": "左右",
+        "components": [
+            "米",
+            "查"
+        ],
+        "explain": ""
+    },
+    "瞭": {
+        "format": "左右",
+        "components": [
+            "目",
+            "尞"
+        ],
+        "explain": ""
+    },
+    "𡈼": {
+        "format": "上下",
+        "components": [
+            "人>丿",
+            "士"
+        ],
+        "explain": "𡈼：善也。从人、士。士，事也。一曰：象物出地挺生也。凡𡈼之屬皆从𡈼。"
+    },
+    "咠": {
+        "format": "上下",
+        "components": [
+            "口",
+            "耳"
+        ],
+        "explain": "咠：聶語也。从口从耳。《詩》曰：咠咠幡幡。"
+    },
+    "盉": {
+        "format": "上下",
+        "components": [
+            "禾",
+            "皿"
+        ],
+        "explain": "盉：調味也。从皿，禾聲。"
+    },
+    "𣎵": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "𠬝": {
+        "format": "左上包围",
+        "components": [
+            "卩",
+            "又"
+        ],
+        "explain": "𠬝：治也。从又从卩，卩，事之節也。"
+    },
+    "欸": {
+        "format": "左右",
+        "components": [
+            "矣",
+            "欠"
+        ],
+        "explain": "欸：訾也。从欠，矣聲。"
+    },
+    "叀": {
+        "format": "单体",
+        "components": [],
+        "explain": "叀：專小謹也。从幺省、屮，財見也，屮亦聲。凡叀之屬皆从叀。"
+    },
+    "貍": {
+        "format": "左右",
+        "components": [
+            "豸",
+            "里"
+        ],
+        "explain": "貍：伏獸，似貙。从豸，里聲。"
+    },
+    "㡀": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "倠": {
+        "format": "左右",
+        "components": [
+            "人",
+            "隹"
+        ],
+        "explain": "倠：仳倠，醜面。从人，隹聲。"
+    },
+    "厷": {
+        "format": "左上包围",
+        "components": [
+            "𠂇",
+            "厶"
+        ],
+        "explain": "厷：臂上也。从又从古文。厶：姦衺也。《韓非》曰：蒼頡作字，自營爲厶。凡厶之屬皆从厶。"
+    },
+    "俶": {
+        "format": "左右",
+        "components": [
+            "亻",
+            "叔"
+        ],
+        "explain": "俶：善也。从人，叔聲。《詩》曰：令終有俶。一曰：始也。"
+    },
+    "啰": {
+        "format": "左右",
+        "components": [
+            "口",
+            "罗"
+        ],
+        "explain": ""
+    },
+    "䏝": {
+        "format": "左右",
+        "components": [
+            "肉>月",
+            "专"
+        ],
+        "explain": "膞：切肉也。从肉專聲。市沇切"
+    },
+    "尗": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "秾": {
+        "format": "左右",
+        "components": [
+            "禾",
+            "农"
+        ],
+        "explain": ""
+    },
+    "塆": {
+        "format": "左右",
+        "components": [
+            "土",
+            "弯"
+        ],
+        "explain": ""
+    },
+    "㤘": {
+        "format": "左右",
+        "components": [
+            "忄",
+            "刍"
+        ],
+        "explain": ""
+    },
+    "惢": {
+        "format": "上下",
+        "components": [
+            "心",
+            {
+                "format": "左右",
+                "components": [
+                    "心",
+                    "心"
+                ]
+            }
+        ],
+        "explain": "惢：心疑也。从三心。凡惢之屬皆从惢。讀若《易》：旅瑣瑣。"
+    },
+    "帀": {
+        "format": "单体",
+        "components": [],
+        "explain": "帀：周也。从反之而帀也。凡帀之屬皆从帀。周盛說。"
+    },
+    "粿": {
+        "format": "左右",
+        "components": [
+            "米",
+            "果"
+        ],
+        "explain": ""
+    },
+    "齉": {
+        "format": "左右",
+        "components": [
+            "鼻",
+            "囊"
+        ],
+        "explain": ""
+    },
+    "㐱": {
+        "format": "上下",
+        "components": [
+            "人",
+            "彡"
+        ],
+        "explain": "㐱：稠髮也。从彡从人。《詩》曰：㐱髮如雲。"
+    },
+    "榖": {
+        "format": "左右",
+        "components": [
+            {
+                "format": "上下",
+                "components": [
+                    "壳",
+                    "木"
+                ]
+            },
+            "殳"
+        ],
+        "explain": "榖：楮也。从木，𣪊聲。"
+    },
+    "霨": {
+        "format": "上下",
+        "components": [
+            "雨",
+            "尉"
+        ],
+        "explain": ""
+    },
+    "阞": {
+        "format": "左右",
+        "components": [
+            "阝",
+            "力"
+        ],
+        "explain": "阞：地理也。从𨸏，力聲。"
+    },
+    "圂": {
+        "format": "全包围",
+        "components": [
+            "囗",
+            "豕"
+        ],
+        "explain": "圂：廁也。从囗，象豕在囗中也。會意。"
+    },
+    "欶": {
+        "format": "左右",
+        "components": [
+            "束",
+            "欠"
+        ],
+        "explain": "欶：吮也。从欠，束聲。"
+    },
+    "楙": {
+        "format": "左中右",
+        "components": [
+            "木",
+            "矛",
+            "木"
+        ],
+        "explain": "楙：木盛也。从林，矛聲。"
+    },
+    "卂": {
+        "format": "右上包围",
+        "components": [
+            "乁",
+            "十"
+        ],
+        "explain": ""
+    },
+    "兒": {
+        "format": "上下",
+        "components": [
+            "兒-儿",
+            "儿"
+        ],
+        "explain": "兒：孺子也。从儿，象小兒頭囟未合。"
+    },
+    "甤": {
+        "format": "左下包围",
+        "components": [
+            "豕",
+            "生"
+        ],
+        "explain": ""
+    },
+    "㸆": {
+        "format": "左右",
+        "components": [
+            "火",
+            "靠"
+        ],
+        "explain": ""
+    },
+    "巿": {
+        "format": "单体",
+        "components": [],
+        "explain": "巿：韠也。上古衣，蔽前而巳，巿以象之。天子朱巿，諸侯赤巿，大夫葱衡。从巾，象連帶之形。凡巿之屬皆从巿。"
+    },
+    "媭": {
+        "format": "上下",
+        "components": [
+            "须",
+            "女"
+        ],
+        "explain": ""
+    },
+    "璠": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "番"
+        ],
+        "explain": "璠：璵璠，魯之寶玉。从玉，番聲。孔子曰：美哉，璵璠！遠而望之，奐若也；近而視之，瑟若也。一則理勝，二則孚勝。"
+    },
+    "湲": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "爰"
+        ],
+        "explain": "湲：潺湲，水聲。从水，爰聲。"
+    },
+    "窣": {
+        "format": "上下",
+        "components": [
+            "穴",
+            "卒"
+        ],
+        "explain": "窣：从穴中卒出。从穴，卒聲。"
+    },
+    "僰": {
+        "format": "上下",
+        "components": [
+            "棘",
+            "人"
+        ],
+        "explain": "僰：犍爲蠻夷。从人，棘聲。"
+    },
+    "拃": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "乍"
+        ],
+        "explain": ""
+    },
+    "𠀆": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "翚": {
+        "format": "上下",
+        "components": [
+            "羽",
+            "军"
+        ],
+        "explain": ""
+    },
+    "瑄": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "宣"
+        ],
+        "explain": "瑄：璧六寸也。从玉，宣聲。"
+    },
+    "冡": {
+        "format": "上下",
+        "components": [
+            "𠔼",
+            "豕"
+        ],
+        "explain": ""
+    },
+    "𠔼": {
+        "format": "上三包围",
+        "components": [
+            "冂",
+            "一"
+        ],
+        "explain": ""
+    },
+    "疐": {
+        "format": "上下",
+        "components": [
+            "疐-疋",
+            "疋"
+        ],
+        "explain": "疐：礙不行也。从叀，引而止之也。叀者，如叀馬之鼻。从此與牽同意。"
+    },
+    "翏": {
+        "format": "上下",
+        "components": [
+            "羽",
+            "㐱"
+        ],
+        "explain": "翏：高飛也。从羽从㐱。"
+    },
+    "闿": {
+        "format": "上三包围",
+        "components": [
+            "门",
+            "岂"
+        ],
+        "explain": ""
+    },
+    "㠯": {
+        "format": "单体",
+        "components": [],
+        "explain": "㠯：用也。从反巳。賈侍中說：巳，意巳實也，象形。"
+    },
+    "糞": {
+        "format": "上中下",
+        "components": [
+            "米",
+            "𠦒>田",
+            "廾>共"
+        ],
+        "explain": "糞：棄除也。从廾推𠦒，棄釆也。官溥說：似米而非米者，矢字。"
+    },
+    "阇": {
+        "format": "上三包围",
+        "components": [
+            "门",
+            "者"
+        ],
+        "explain": ""
+    },
+    "蒦": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "隻"
+        ],
+        "explain": ""
+    },
+    "隻": {
+        "format": "上下",
+        "components": [
+            "隹",
+            "又"
+        ],
+        "explain": ""
+    },
+    "疌": {
+        "format": "单体",
+        "components": [],
+        "explain": "𤴗：疾也。从止从又，又，手也。屮聲。"
+    },
+    "踒": {
+        "format": "左右",
+        "components": [
+            "足",
+            "委"
+        ],
+        "explain": "踒：足跌也。从足，委聲。"
+    },
+    "嘚": {
+        "format": "左右",
+        "components": [
+            "口",
+            "得"
+        ],
+        "explain": ""
+    },
+    "𡰯": {
+        "format": "左上包围",
+        "components": [
+            "尸",
+            "巾"
+        ],
+        "explain": ""
+    },
+    "䥽": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "发"
+        ],
+        "explain": ""
+    },
+    "湜": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "是"
+        ],
+        "explain": "湜：水清底見也。从水，是聲。《詩》曰：湜湜其止。"
+    },
+    "朁": {
+        "format": "上下",
+        "components": [
+            "兓",
+            "曰"
+        ],
+        "explain": "朁：曾也。从曰，兓聲。《詩》曰：朁不畏明。"
+    },
+    "椪": {
+        "format": "左右",
+        "components": [
+            "木",
+            "並"
+        ],
+        "explain": ""
+    },
+    "疭": {
+        "format": "左上包围",
+        "components": [
+            "疒",
+            "从"
+        ],
+        "explain": ""
+    },
+    "炗": {
+        "format": "上下",
+        "components": [
+            "廿",
+            "火"
+        ],
+        "explain": ""
+    },
+    "復": {
+        "format": "左右",
+        "components": [
+            "彳",
+            "复"
+        ],
+        "explain": "復：往來也。从彳，复聲。"
+    },
+    "𤇾": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "雚": {
+        "format": "上中下",
+        "components": [
+            "艹",
+            "吅",
+            "隹"
+        ],
+        "explain": "雚：小爵也。从雈，吅聲。《詩》曰：雚鳴于垤。"
+    },
+    "荅": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "合"
+        ],
+        "explain": "荅：小尗也。从艸，合聲。"
+    },
+    "鲀": {
+        "format": "左右",
+        "components": [
+            "鱼",
+            "屯"
+        ],
+        "explain": ""
+    },
+    "𠳐": {
+        "format": "左右",
+        "components": [
+            "口",
+            "邦"
+        ],
+        "explain": ""
+    },
+    "劦": {
+        "format": "上下",
+        "components": [
+            "力",
+            {
+                "format": "左右",
+                "components": [
+                    "力",
+                    "力"
+                ]
+            }
+        ],
+        "explain": "劦：同力也。从三力。《山海經》曰：惟號之山，其風若劦。凡劦之屬皆从劦。"
+    },
+    "郿": {
+        "format": "左右",
+        "components": [
+            "眉",
+            "邑>阝"
+        ],
+        "explain": "郿：右扶風縣。从邑，眉聲。"
+    },
+    "鳀": {
+        "format": "左右",
+        "components": [
+            "鱼",
+            "是"
+        ],
+        "explain": ""
+    },
+    "霝": {
+        "format": "上下",
+        "components": [
+            "雨",
+            "𠱠"
+        ],
+        "explain": "霝：雨零也。从雨、𠱠，象𩂣形。《詩》曰：霝雨其濛。"
+    },
+    "𠱠": {
+        "format": "左中右",
+        "components": [
+            "口",
+            "口",
+            "口"
+        ],
+        "explain": "霝：雨零也。从雨、𠱠，象𩂣形。《詩》曰：霝雨其濛。"
+    },
+    "楯": {
+        "format": "左右",
+        "components": [
+            "木",
+            "盾"
+        ],
+        "explain": "楯：闌(楯)[檻]也。从木，盾聲。"
+    },
+    "刅": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "刀"
+    },
+    "滪": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "预"
+        ],
+        "explain": ""
+    },
+    "㡭": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "敄": {
+        "format": "左右",
+        "components": [
+            "矛",
+            "攵"
+        ],
+        "explain": ""
+    },
+    "棁": {
+        "format": "左右",
+        "components": [
+            "木",
+            "兑"
+        ],
+        "explain": "棁：木杖也。从木，兌聲。"
+    },
+    "遀": {
+        "format": "左下包围",
+        "components": [
+            "辶",
+            {
+                "format": "上下",
+                "components": [
+                    "左",
+                    "肉>月"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "豨": {
+        "format": "左右",
+        "components": [
+            "豕",
+            "希"
+        ],
+        "explain": "豨：豕走豨豨。从豕，希聲。古有封豨、脩虵之害。"
+    },
+    "昬": {
+        "format": "上下",
+        "components": [
+            "民",
+            "日"
+        ],
+        "explain": ""
+    },
+    "萠": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "朋"
+        ],
+        "explain": ""
+    },
+    "隺": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "隹"
+    },
+    "丷": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "颙": {
+        "format": "左右",
+        "components": [
+            "禺",
+            "页"
+        ],
+        "explain": ""
+    },
+    "習": {
+        "format": "上下",
+        "components": [
+            "羽",
+            "白"
+        ],
+        "explain": "習：數飛也。从羽从白。凡習之屬皆从習。"
+    },
+    "抔": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "不"
+        ],
+        "explain": ""
+    },
+    "鞡": {
+        "format": "左右",
+        "components": [
+            "革",
+            "拉"
+        ],
+        "explain": ""
+    },
+    "悤": {
+        "format": "上下",
+        "components": [
+            "囱",
+            "心"
+        ],
+        "explain": "悤：多遽悤悤也。从心、囱，囱亦聲。"
+    },
+    "嫚": {
+        "format": "左右",
+        "components": [
+            "女",
+            "曼"
+        ],
+        "explain": "嫚：侮易也。从女，曼聲。"
+    },
+    "𡆧": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "饸": {
+        "format": "左右",
+        "components": [
+            "饣",
+            "合"
+        ],
+        "explain": ""
+    },
+    "抃": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "卞"
+        ],
+        "explain": "拚：拊手也。从手，弁聲。"
+    },
+    "𬉼": {
+        "format": "左右",
+        "components": [
+            "火",
+            "区"
+        ],
+        "explain": ""
+    },
+    "癶": {
+        "format": "单体",
+        "components": [],
+        "explain": "𣥠：足剌𣥠也。从止、𣥂。凡𣥠之屬皆从𣥠。讀若撥。"
+    },
+    "瓘": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "雚"
+        ],
+        "explain": "瓘：玉也。从玉，雚聲。《春秋傳》曰：瓘斝。"
+    },
+    "甡": {
+        "format": "左右",
+        "components": [
+            "生",
+            "生"
+        ],
+        "explain": "甡：眾生並立之皃。从二生。《詩》曰：甡甡其鹿。"
+    },
+    "匧": {
+        "format": "左三包围",
+        "components": [
+            "匚",
+            "夾"
+        ],
+        "explain": ""
+    },
+    "㒸": {
+        "format": "上下",
+        "components": [
+            "八>丷",
+            "豕"
+        ],
+        "explain": "㒸：从意也。从八，豕聲。"
+    },
+    "𡰥": {
+        "format": "左上包围",
+        "components": [
+            "尸",
+            "二"
+        ],
+        "explain": ""
+    },
+    "畧": {
+        "format": "上下",
+        "components": [
+            "田",
+            "各"
+        ],
+        "explain": ""
+    },
+    "㕣": {
+        "format": "上下",
+        "components": [
+            "八",
+            "口"
+        ],
+        "explain": ""
+    },
+    "羴": {
+        "format": "上下",
+        "components": [
+            "羊",
+            {
+                "format": "左右",
+                "components": [
+                    "羊",
+                    "羊"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "嘡": {
+        "format": "左右",
+        "components": [
+            "口",
+            "堂"
+        ],
+        "explain": ""
+    },
+    "捽": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "卒"
+        ],
+        "explain": "捽：持頭髮也。从手，卒聲。"
+    },
+    "矞": {
+        "format": "上下",
+        "components": [
+            "矛",
+            "㕯>冏"
+        ],
+        "explain": "矞：以錐有所穿也。从矛从㕯。一曰：滿有所出也。"
+    },
+    "巸": {
+        "format": "左右",
+        "components": [
+            "𦣞",
+            "巳"
+        ],
+        "explain": ""
+    },
+    "𤰇": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "峣": {
+        "format": "左右",
+        "components": [
+            "山",
+            "尧"
+        ],
+        "explain": ""
+    },
+    "皀": {
+        "format": "上下",
+        "components": [
+            "白",
+            "匕"
+        ],
+        "explain": "皀：穀之馨香也。象嘉穀在裹中之形，匕，所以扱之。或說：皀，一粒也。凡皀之屬皆从皀。又讀若香。"
+    },
+    "㧐": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "双"
+        ],
+        "explain": ""
+    },
+    "㫃": {
+        "format": "左右",
+        "components": [
+            "屮>方",
+            "入>人"
+        ],
+        "explain": "㫃：旌旗之游㫃蹇之皃。从屮，曲而下垂㫃相出入也。讀若偃。古人名㫃，字子游。凡㫃之屬皆从㫃。"
+    },
+    "俵": {
+        "format": "左右",
+        "components": [
+            "亻",
+            "表"
+        ],
+        "explain": ""
+    },
+    "𥁑": {
+        "format": "上下",
+        "components": [
+            "必",
+            "皿"
+        ],
+        "explain": ""
+    },
+    "殸": {
+        "format": "左右",
+        "components": [
+            "声",
+            "殳"
+        ],
+        "explain": ""
+    },
+    "敃": {
+        "format": "左右",
+        "components": [
+            "民",
+            "攵"
+        ],
+        "explain": "敃：彊也。从攴，民聲。"
+    },
+    "匽": {
+        "format": "左三包围",
+        "components": [
+            "匸",
+            "妟"
+        ],
+        "explain": "匽：匿也。从匸，妟聲。"
+    },
+    "羕": {
+        "format": "上下",
+        "components": [
+            "羊",
+            "永"
+        ],
+        "explain": "羕：水長也。从永，羊聲。《詩》曰：江之羕矣。"
+    },
+    "縣": {
+        "format": "左右",
+        "components": [
+            "県",
+            "系"
+        ],
+        "explain": "縣：繫也。从系持県。"
+    },
+    "爫": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "爪"
+    },
+    "旻": {
+        "format": "上下",
+        "components": [
+            "日",
+            "文"
+        ],
+        "explain": "旻：秋天也。从日，文聲。《虞書》曰：仁閔覆下，則稱旻天。"
+    },
+    "尌": {
+        "format": "左右",
+        "components": [
+            "壴",
+            "寸"
+        ],
+        "explain": "尌：立也。从壴，从寸持之也。讀若駐。"
+    },
+    "巤": {
+        "format": "上中下",
+        "components": [
+            "巛",
+            "囟",
+            "鼠-臼"
+        ],
+        "explain": ""
+    },
+    "僕": {
+        "format": "左右",
+        "components": [
+            "人",
+            "菐"
+        ],
+        "explain": "僕：給事者。从人从菐，菐亦聲。"
+    },
+    "尞": {
+        "format": "上下",
+        "components": [
+            "昚",
+            "火>小"
+        ],
+        "explain": "尞：柴祭天也。从火从眘。眘，古文愼字。祭天所以愼也。"
+    },
+    "匋": {
+        "format": "右上包围",
+        "components": [
+            "勹",
+            "缶"
+        ],
+        "explain": "匋：瓦器也。从缶，包省聲。古者昆吾作匋。案《史篇》讀與缶同。"
+    },
+    "𠘧": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "愔": {
+        "format": "左右",
+        "components": [
+            "忄",
+            "音"
+        ],
+        "explain": ""
+    },
+    "颎": {
+        "format": "左右",
+        "components": [
+            {
+                "format": "上下",
+                "components": [
+                    "匕",
+                    "火"
+                ]
+            },
+            "页"
+        ],
+        "explain": ""
+    },
+    "丏": {
+        "format": "单体",
+        "components": [],
+        "explain": "丏：不見也。象壅蔽之形。凡丏之屬皆从丏。"
+    },
+    "铻": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "吾"
+        ],
+        "explain": ""
+    },
+    "韰": {
+        "format": "上下",
+        "components": [
+            "𣦼",
+            "韭"
+        ],
+        "explain": "䪥：菜也，葉似韭。从韭，㕢聲。"
+    },
+    "虖": {
+        "format": "左上包围",
+        "components": [
+            "虍",
+            "乎"
+        ],
+        "explain": "虖：哮虖也。从虍，乎聲。"
+    },
+    "㐆": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "縠": {
+        "format": "左右",
+        "components": [
+            {
+                "format": "上下",
+                "components": [
+                    "壳",
+                    "糸"
+                ]
+            },
+            "殳"
+        ],
+        "explain": "縠：細縳也。从糸，𣪊聲。"
+    },
+    "無": {
+        "format": "单体",
+        "components": [],
+        "explain": "𣞤：豐也。从林、𡘲。或說：規模字。从大、𠦜，數之積也。林者，木之多也。𠦜與庶同意。《商書》曰：庶草繁無。𣞣：亡也。从亡，無聲。"
+    },
+    "𢼸": {
+        "format": "左右",
+        "components": [
+            "𢼸-攵",
+            "攵"
+        ],
+        "explain": ""
+    },
+    "巠": {
+        "format": "上中下",
+        "components": [
+            "一",
+            "巛",
+            "𡈼>工"
+        ],
+        "explain": "巠：水脈也。从川在一下。一，地也。𡈼省聲。一曰：水冥巠也。"
+    },
+    "祎": {
+        "format": "左右",
+        "components": [
+            "礻",
+            "韦"
+        ],
+        "explain": ""
+    },
+    "旸": {
+        "format": "左右",
+        "components": [
+            "日",
+            "昜"
+        ],
+        "explain": "暘：日出也。从日昜聲。《虞書》曰：“暘谷。”與章切"
+    },
+    "豐": {
+        "format": "上下",
+        "components": [
+            "豐-豆",
+            "豆"
+        ],
+        "explain": "豐：豆之豐滿者也。从豆，象形。一曰：鄉飲酒有豐侯者。凡豐之屬皆从豐。"
+    },
+    "玠": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "介"
+        ],
+        "explain": "玠：大圭也。从玉，介聲。《周書》曰：稱奉介圭。"
+    },
+    "嗞": {
+        "format": "左右",
+        "components": [
+            "口",
+            "兹"
+        ],
+        "explain": ""
+    },
+    "叚": {
+        "format": "左右",
+        "components": [
+            "𡰥",
+            {
+                "format": "上下",
+                "components": [
+                    "叚-𡰥又",
+                    "又"
+                ]
+            }
+        ],
+        "explain": "叚：借也。闕。"
+    },
+    "耤": {
+        "format": "左右",
+        "components": [
+            "耒",
+            "昔"
+        ],
+        "explain": "耤：帝耤千畝也。古者使民如借，故謂之耤。从耒，昔聲。"
+    },
+    "㇏": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "㐄": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "㇆": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "焗": {
+        "format": "左右",
+        "components": [
+            "火",
+            "局"
+        ],
+        "explain": ""
+    },
+    "悳": {
+        "format": "上下",
+        "components": [
+            "直",
+            "心"
+        ],
+        "explain": ""
+    },
+    "厹": {
+        "format": "上下",
+        "components": [
+            "九",
+            "厶"
+        ],
+        "explain": "禸：獸足蹂地也。象形。九聲。《尔疋》曰：狐貍貛貉醜，其足𨆌，其迹厹。凡厹之屬皆从厹。"
+    },
+    "厃": {
+        "format": "上下",
+        "components": [
+            "人>⺈",
+            "厂"
+        ],
+        "explain": ""
+    },
+    "㯥": {
+        "format": "左右",
+        "components": [
+            "東",
+            "東"
+        ],
+        "explain": ""
+    },
+    "跐": {
+        "format": "左右",
+        "components": [
+            "足",
+            "此"
+        ],
+        "explain": ""
+    },
+    "杻": {
+        "format": "左右",
+        "components": [
+            "木",
+            "丑"
+        ],
+        "explain": ""
+    },
+    "棻": {
+        "format": "上下",
+        "components": [
+            "芬",
+            "木"
+        ],
+        "explain": ""
+    },
+    "⺌": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "鋆": {
+        "format": "上下",
+        "components": [
+            "均",
+            "金"
+        ],
+        "explain": ""
+    },
+    "䦃": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "著"
+        ],
+        "explain": ""
+    },
+    "沨": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "风"
+        ],
+        "explain": ""
+    },
+    "朿": {
+        "format": "单体",
+        "components": [],
+        "explain": "朿：木芒也。象形。凡朿之屬皆从朿。讀若刺。"
+    },
+    "嵎": {
+        "format": "左右",
+        "components": [
+            "山",
+            "禺"
+        ],
+        "explain": "嵎：封嵎之山，在吳楚之閒，汪芒之國。从山，禺聲。"
+    },
+    "璪": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "喿"
+        ],
+        "explain": "璪：玉飾，如水藻之文。从玉，喿聲。《虞書》曰：璪火黺米。"
+    },
+    "靰": {
+        "format": "左右",
+        "components": [
+            "革",
+            "兀"
+        ],
+        "explain": ""
+    },
+    "朩": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "菐": {
+        "format": "上下",
+        "components": [
+            "丵>业",
+            "廾>美"
+        ],
+        "explain": ""
+    },
+    "𣦼": {
+        "format": "左右",
+        "components": [
+            "歺",
+            "又"
+        ],
+        "explain": ""
+    },
+    "齁": {
+        "format": "左右",
+        "components": [
+            "鼻",
+            "句"
+        ],
+        "explain": ""
+    },
+    "弍": {
+        "format": "右上包围",
+        "components": [
+            "弋",
+            "二"
+        ],
+        "explain": ""
+    },
+    "箓": {
+        "format": "上下",
+        "components": [
+            "⺮",
+            "录"
+        ],
+        "explain": ""
+    },
+    "壴": {
+        "format": "上下",
+        "components": [
+            "屮>十",
+            "豆"
+        ],
+        "explain": "壴：陳樂立而上見也。从屮从豆。凡壴之屬皆从壴。"
+    },
+    "𠂔": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "魝": {
+        "format": "左右",
+        "components": [
+            "魚",
+            "刂"
+        ],
+        "explain": ""
+    },
+    "𡯄": {
+        "format": "左下包围",
+        "components": [
+            "尢",
+            "大"
+        ],
+        "explain": ""
+    },
+    "浕": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "尽"
+        ],
+        "explain": ""
+    },
+    "𢦒": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "埵": {
+        "format": "左右",
+        "components": [
+            "土",
+            "垂"
+        ],
+        "explain": "埵：堅土也。从土，垂聲。讀若朵。"
+    },
+    "獴": {
+        "format": "左右",
+        "components": [
+            "犭",
+            "蒙"
+        ],
+        "explain": ""
+    },
+    "夋": {
+        "format": "上下",
+        "components": [
+            "允",
+            "夂"
+        ],
+        "explain": ""
+    },
+    "龴": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "梿": {
+        "format": "左右",
+        "components": [
+            "木",
+            "连"
+        ],
+        "explain": ""
+    },
+    "玡": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "牙"
+        ],
+        "explain": ""
+    },
+    "猋": {
+        "format": "上下",
+        "components": [
+            "犬",
+            {
+                "format": "左右",
+                "components": [
+                    "犬",
+                    "犬"
+                ]
+            }
+        ],
+        "explain": "猋：犬走皃。从三犬。"
+    },
+    "㐌": {
+        "format": "上下",
+        "components": [
+            "㐌-也",
+            "也"
+        ],
+        "explain": ""
+    },
+    "烜": {
+        "format": "左右",
+        "components": [
+            "火",
+            "亘"
+        ],
+        "explain": "爟：取火於日，官名。舉火曰爟。《周禮》曰：司爟，掌行火之政令。从火，雚聲。"
+    },
+    "尃": {
+        "format": "上下",
+        "components": [
+            "甫",
+            "寸"
+        ],
+        "explain": "尃：布也。从寸，甫聲。"
+    },
+    "玙": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "与"
+        ],
+        "explain": ""
+    },
+    "姮": {
+        "format": "左右",
+        "components": [
+            "女",
+            "亘"
+        ],
+        "explain": ""
+    },
+    "禸": {
+        "format": "单体",
+        "components": [],
+        "explain": "禸：獸足蹂地也。象形。九聲。《尔疋》曰：狐貍貛貉醜，其足𨆌，其迹厹。凡厹之屬皆从厹。"
+    },
+    "鸻": {
+        "format": "左右",
+        "components": [
+            "行",
+            "鸟"
+        ],
+        "explain": ""
+    },
+    "螠": {
+        "format": "左右",
+        "components": [
+            "虫",
+            "益"
+        ],
+        "explain": ""
+    },
+    "馃": {
+        "format": "左右",
+        "components": [
+            "饣",
+            "果"
+        ],
+        "explain": ""
+    },
+    "魆": {
+        "format": "左下包围",
+        "components": [
+            "鬼",
+            "戉"
+        ],
+        "explain": ""
+    },
+    "缊": {
+        "format": "左右",
+        "components": [
+            "纟",
+            "昷"
+        ],
+        "explain": ""
+    },
+    "枼": {
+        "format": "上下",
+        "components": [
+            "世",
+            "木"
+        ],
+        "explain": "枼：楄也。枼，薄也。从木，世聲。"
+    },
+    "𢇍": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "甹": {
+        "format": "上下",
+        "components": [
+            "由",
+            "丂"
+        ],
+        "explain": "甹：亟詞也。从丂从由。或曰：甹，俠也。三輔謂輕財者爲甹。"
+    },
+    "畐": {
+        "format": "上下",
+        "components": [
+            "高-丶冋",
+            "田"
+        ],
+        "explain": "畗：滿也。从高省，象高厚之形。凡畗之屬皆从畗。讀若伏。"
+    },
+    "㧜": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "匝"
+        ],
+        "explain": ""
+    },
+    "耴": {
+        "format": "左右",
+        "components": [
+            "耳",
+            "乚"
+        ],
+        "explain": "𦔮：耳垂也。从耳下垂，象形。《春秋傳》曰：秦公子輒者，其耳下垂，故以爲名。"
+    },
+    "夅": {
+        "format": "上下",
+        "components": [
+            "夂",
+            "㐄"
+        ],
+        "explain": ""
+    },
+    "蹾": {
+        "format": "左右",
+        "components": [
+            "足",
+            "敦"
+        ],
+        "explain": ""
+    },
+    "揳": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "契"
+        ],
+        "explain": ""
+    },
+    "丯": {
+        "format": "单体",
+        "components": [],
+        "explain": "丯：艸蔡也。象艸生之散亂也。凡丯之屬皆从丯。讀若介。"
+    },
+    "昷": {
+        "format": "上下",
+        "components": [
+            "囚>日",
+            "皿"
+        ],
+        "explain": ""
+    },
+    "叆": {
+        "format": "左右",
+        "components": [
+            "云",
+            "爱"
+        ],
+        "explain": ""
+    },
+    "匊": {
+        "format": "右上包围",
+        "components": [
+            "勹",
+            "米"
+        ],
+        "explain": "匊：在手曰匊。从勹、米。"
+    },
+    "冘": {
+        "format": "单体",
+        "components": [],
+        "explain": "冘：淫淫行皃。从人出冂。"
+    },
+    "镠": {
+        "format": "左右",
+        "components": [
+            "钅",
+            "翏"
+        ],
+        "explain": ""
+    },
+    "啇": {
+        "format": "上三包围",
+        "components": [
+            "帝",
+            "口"
+        ],
+        "explain": ""
+    },
+    "祇": {
+        "format": "左右",
+        "components": [
+            "礻",
+            "氏"
+        ],
+        "explain": "祇：地祇，提出萬物者也。从示，氏聲。"
+    },
+    "焜": {
+        "format": "左右",
+        "components": [
+            "火",
+            "昆"
+        ],
+        "explain": "焜：煌也。从火，昆聲。"
+    },
+    "坴": {
+        "format": "上下",
+        "components": [
+            "圥",
+            "土"
+        ],
+        "explain": "坴：土塊坴坴也。从土，圥聲。讀若逐。一曰：坴梁。"
+    },
+    "𠂤": {
+        "format": "单体",
+        "components": [],
+        "explain": "𠂤：小𨸏也。象形。凡𠂤之屬皆从𠂤。"
+    },
+    "艸": {
+        "format": "左右",
+        "components": [
+            "屮",
+            "屮"
+        ],
+        "explain": "艸：百芔也。从二屮。凡艸之屬皆从艸。"
+    },
+    "滫": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "脩"
+        ],
+        "explain": "滫：久泔也。从水，脩聲。"
+    },
+    "夃": {
+        "format": "上三包围",
+        "components": [
+            "乃",
+            "夂>又"
+        ],
+        "explain": "夃：秦以市買多得爲夃。从𠄎从夂。益至也。从乃。《詩》曰：我夃酌彼金罍。"
+    },
+    "臥": {
+        "format": "左右",
+        "components": [
+            "臣",
+            "人"
+        ],
+        "explain": "臥：休也。从人、臣，取其伏也。凡臥之屬皆从臥。"
+    },
+    "羑": {
+        "format": "上下",
+        "components": [
+            "羊",
+            "久"
+        ],
+        "explain": "羑：進善也。从羊，久聲。文王拘羑里，在湯陰。"
+    },
+    "垔": {
+        "format": "上下",
+        "components": [
+            "覀",
+            "土"
+        ],
+        "explain": "𡍯：塞也。《尚書》曰：鯀垔洪水。从土，西聲。"
+    },
+    "琤": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "爭"
+        ],
+        "explain": "琤：玉聲也。从玉，爭聲。"
+    },
+    "摽": {
+        "format": "左右",
+        "components": [
+            "扌",
+            "票"
+        ],
+        "explain": "摽：擊也。从手，票聲。一曰：挈門壯也。"
+    },
+    "𦣞": {
+        "format": "单体",
+        "components": [],
+        "explain": "𦣞：𩔞也。象形。凡𦣞之屬皆从𦣞。"
+    },
+    "肙": {
+        "format": "上下",
+        "components": [
+            "囗",
+            "肉>月"
+        ],
+        "explain": "肙：小蟲也。从肉，囗聲。一曰：空也。"
+    },
+    "睄": {
+        "format": "左右",
+        "components": [
+            "目",
+            "肖"
+        ],
+        "explain": ""
+    },
+    "蹚": {
+        "format": "左右",
+        "components": [
+            "足",
+            "堂"
+        ],
+        "explain": ""
+    },
+    "蹽": {
+        "format": "左右",
+        "components": [
+            "足",
+            "尞"
+        ],
+        "explain": ""
+    },
+    "堉": {
+        "format": "左右",
+        "components": [
+            "土",
+            "育"
+        ],
+        "explain": ""
+    },
+    "囷": {
+        "format": "全包围",
+        "components": [
+            "囗",
+            "禾"
+        ],
+        "explain": "囷：廩之圜者。从禾在囗中。圜謂之囷，方謂之京。"
+    },
+    "乑": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "𠳋": {
+        "format": "上下",
+        "components": [
+            "臾",
+            "𠂤"
+        ],
+        "explain": ""
+    },
+    "吽": {
+        "format": "左右",
+        "components": [
+            "口",
+            "牛"
+        ],
+        "explain": ""
+    },
+    "㔷": {
+        "format": "左三包围",
+        "components": [
+            "匸",
+            "丙"
+        ],
+        "explain": ""
+    },
+    "殹": {
+        "format": "左右",
+        "components": [
+            "医",
+            "殳"
+        ],
+        "explain": ""
+    },
+    "晞": {
+        "format": "左右",
+        "components": [
+            "日",
+            "希"
+        ],
+        "explain": "晞：乾也。从日，希聲。"
+    },
+    "臤": {
+        "format": "左右",
+        "components": [
+            "臣",
+            "又"
+        ],
+        "explain": "臤：堅也。从又，臣聲。凡臤之屬皆从臤。讀若鏗鏘之鏗。古文以為賢字。"
+    },
+    "閵": {
+        "format": "上三包围",
+        "components": [
+            "門",
+            "隹"
+        ],
+        "explain": "閵：今閵似鴝鵒而黃。从隹，𨳌省聲。"
+    },
+    "冓": {
+        "format": "单体",
+        "components": [],
+        "explain": "冓：交積材也。象對交之形。凡冓之屬皆从冓。"
+    },
+    "𡱒": {
+        "format": "左上包围",
+        "components": [
+            "尸",
+            "共"
+        ],
+        "explain": ""
+    },
+    "䀠": {
+        "format": "左右",
+        "components": [
+            "目",
+            "目"
+        ],
+        "explain": ""
+    },
+    "肰": {
+        "format": "左右",
+        "components": [
+            "月",
+            "犬"
+        ],
+        "explain": ""
+    },
+    "㓁": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "崚": {
+        "format": "左右",
+        "components": [
+            "山",
+            "夌"
+        ],
+        "explain": ""
+    },
+    "茓": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "穴"
+        ],
+        "explain": ""
+    },
+    "雱": {
+        "format": "上下",
+        "components": [
+            "雨",
+            "方"
+        ],
+        "explain": "旁：溥也。从𠄞，闕，方聲。"
+    },
+    "耂": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "欮": {
+        "format": "左右",
+        "components": [
+            "屰",
+            "欠"
+        ],
+        "explain": ""
+    },
+    "恓": {
+        "format": "左右",
+        "components": [
+            "忄",
+            "西"
+        ],
+        "explain": ""
+    },
+    "狊": {
+        "format": "上下",
+        "components": [
+            "目",
+            "犬"
+        ],
+        "explain": "狊：犬視皃。从犬、目。"
+    },
+    "斿": {
+        "format": "左上包围",
+        "components": [
+            "㫃",
+            "子"
+        ],
+        "explain": ""
+    },
+    "畾": {
+        "format": "上下",
+        "components": [
+            "田",
+            {
+                "format": "上下",
+                "components": [
+                    "田",
+                    "田"
+                ]
+            }
+        ],
+        "explain": ""
+    },
+    "㣺": {
+        "format": "单体",
+        "components": [],
+        "explain": "",
+        "source": "心"
+    },
+    "鞨": {
+        "format": "左右",
+        "components": [
+            "革",
+            "曷"
+        ],
+        "explain": ""
+    },
+    "㐬": {
+        "format": "上下",
+        "components": [
+            "𠫓",
+            "川"
+        ],
+        "explain": ""
+    },
+    "𠂢": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "虒": {
+        "format": "左上包围",
+        "components": [
+            "",
+            "虎"
+        ],
+        "explain": "虒：委虒，虎之有角者也。从虎，聲。"
+    },
+    "䜌": {
+        "format": "左中右",
+        "components": [
+            "糸",
+            "言",
+            "糸"
+        ],
+        "explain": "䜌：亂也。一曰：治也。一曰：不絕也。从言、絲。"
+    },
+    "栟": {
+        "format": "左右",
+        "components": [
+            "木",
+            "并"
+        ],
+        "explain": "栟：栟櫚也。从木，并聲。"
+    },
+    "玭": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "比"
+        ],
+        "explain": "玭：珠也。从玉，比聲。宋弘云：淮水中出玭珠。玭，珠之有聲。"
+    },
+    "珣": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "旬"
+        ],
+        "explain": "珣：醫無閭珣玗琪。《周書》所謂夷玉也。从玉，旬聲。一曰：器。讀若宣。"
+    },
+    "歨": {
+        "format": "上下",
+        "components": [
+            "止",
+            "𣥂"
+        ],
+        "explain": ""
+    },
+    "臿": {
+        "format": "单体",
+        "components": [],
+        "explain": "臿：舂去麥皮也。从臼、干，所以臿之。"
+    },
+    "滃": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "翁"
+        ],
+        "explain": "滃：雲气起也。从水，翁聲。"
+    },
+    "纴": {
+        "format": "左右",
+        "components": [
+            "纟",
+            "壬"
+        ],
+        "explain": "纴：機縷也。从糸，壬聲。"
+    },
+    "畺": {
+        "format": "单体",
+        "components": [],
+        "explain": "畺：界也。从畕，三，其界畫也。"
+    },
+    "璈": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "敖"
+        ],
+        "explain": ""
+    },
+    "𢎥": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "㕯": {
+        "format": "上三包围",
+        "components": [
+            "内",
+            "口"
+        ],
+        "explain": ""
+    },
+    "厓": {
+        "format": "左上包围",
+        "components": [
+            "厂",
+            "圭"
+        ],
+        "explain": "厓：山邊也。从厂，圭聲。"
+    },
+    "琫": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "奉"
+        ],
+        "explain": "琫：佩刀上飾，天子以玉，諸侯以金。从玉，奉聲。"
+    },
+    "璘": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "粦"
+        ],
+        "explain": ""
+    },
+    "𠤎": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "茀": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "弗"
+        ],
+        "explain": "茀：道多艸不可行。从艸，弗聲。"
+    },
+    "夆": {
+        "format": "上下",
+        "components": [
+            "夂",
+            "丰"
+        ],
+        "explain": "夆：啎也。从夂，丰聲。讀若縫。"
+    },
+    "犮": {
+        "format": "单体",
+        "components": [],
+        "explain": "犮：走犬皃。从犬而丿之。曳其足，則剌犮也。"
+    },
+    "㤅": {
+        "format": "上下",
+        "components": [
+            "旡",
+            "心"
+        ],
+        "explain": ""
+    },
+    "並": {
+        "format": "单体",
+        "components": [],
+        "explain": "並：倂也。从二立。凡並之屬皆从並。"
+    },
+    "潟": {
+        "format": "左右",
+        "components": [
+            "氵",
+            "舄"
+        ],
+        "explain": ""
+    },
+    "珰": {
+        "format": "左右",
+        "components": [
+            "玉>王",
+            "当"
+        ],
+        "explain": ""
+    },
+    "韱": {
+        "format": "右上包围",
+        "components": [
+            "㦰",
+            "韭"
+        ],
+        "explain": "韱：山韭也。从韭，㦰聲。"
+    },
+    "蒟": {
+        "format": "上下",
+        "components": [
+            "艹",
+            "竘"
+        ],
+        "explain": "蒟：果也。从艸，竘聲。"
+    },
+    "皅": {
+        "format": "左右",
+        "components": [
+            "白",
+            "巴"
+        ],
+        "explain": ""
+    },
+    "窸": {
+        "format": "上下",
+        "components": [
+            "穴",
+            "悉"
+        ],
+        "explain": ""
+    },
+    "䒑": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "瞋": {
+        "format": "左右",
+        "components": [
+            "目",
+            "真"
+        ],
+        "explain": "瞋：張目也。从目，眞聲。"
+    },
+    "鹐": {
+        "format": "左右",
+        "components": [
+            "臽",
+            "鸟"
+        ],
+        "explain": ""
+    },
+    "迶": {
+        "format": "左下包围",
+        "components": [
+            "辶",
+            "有"
+        ],
+        "explain": ""
+    },
+    "夊": {
+        "format": "单体",
+        "components": [],
+        "explain": "夊：行遲曳夊夊。象人兩脛有所躧也。凡夊之屬皆从夊。"
+    },
+    "昫": {
+        "format": "左右",
+        "components": [
+            "日",
+            "句"
+        ],
+        "explain": "昫：日出溫也。从日，句聲。北地有昫衍縣。"
+    },
+    "豦": {
+        "format": "左上包围",
+        "components": [
+            "虍",
+            "豕"
+        ],
+        "explain": "豦：鬬相丮不解也。从豕、虍，豕虍之鬬不解也。讀若蘮蒘草之蘮。司馬相如說：豦，封豕之屬。一曰：虎兩足舉。"
+    },
+    "唵": {
+        "format": "左右",
+        "components": [
+            "口",
+            "奄"
+        ],
+        "explain": ""
+    },
+    "罙": {
+        "format": "上下",
+        "components": [
+            "㓁",
+            "木"
+        ],
+        "explain": ""
+    },
+    "𠦍": {
+        "format": "上下",
+        "components": [
+            "𠦍-十",
+            "十"
+        ],
+        "explain": ""
+    },
+    "夲": {
+        "format": "上下",
+        "components": [
+            "大",
+            "十"
+        ],
+        "explain": ""
+    },
+    "冎": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "豙": {
+        "format": "上下",
+        "components": [
+            "䇂>立",
+            "豕-一"
+        ],
+        "explain": ""
+    },
+    "桼": {
+        "format": "单体",
+        "components": [],
+        "explain": "桼：木汁可以䰍物。象形。桼如水滴而下。凡桼之屬皆从桼。"
+    },
+    "眊": {
+        "format": "左右",
+        "components": [
+            "目",
+            "毛"
+        ],
+        "explain": "眊：目少精也。从目，毛聲。《虞書》耄字从此。"
+    },
+    "烝": {
+        "format": "上下",
+        "components": [
+            "丞",
+            "灬"
+        ],
+        "explain": "烝：火气上行也。从火，丞聲。"
     }
 }
