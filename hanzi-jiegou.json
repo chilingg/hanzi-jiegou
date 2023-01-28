@@ -12979,7 +12979,7 @@
         "format": "左右",
         "components": [
             {
-                "format": "右三包围",
+                "format": "右上包围",
                 "components": [
                     "弓",
                     "土"

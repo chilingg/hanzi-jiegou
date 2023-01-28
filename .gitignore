@@ -2,7 +2,4 @@
 *glyph.json
 *__pycache__
 
-workspace/tasks/*
-workspace/glyphs/*
-workspace/symbols/*
-workspace/components/*
+scripts/query.py
