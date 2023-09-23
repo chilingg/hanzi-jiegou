@@ -15176,7 +15176,13 @@
     "康": {
         "format": "左上包围",
         "components": [
-            "庚",
+            {
+                "format": "左上包围",
+                "components": [
+                    "广",
+                    "肀"
+                ]
+            },
             "米"
         ],
         "explain": [
@@ -28320,7 +28326,13 @@
     "唐": {
         "format": "左上包围",
         "components": [
-            "庚",
+            {
+                "format": "左上包围",
+                "components": [
+                    "广",
+                    "肀"
+                ]
+            },
             "口"
         ],
         "explain": [
