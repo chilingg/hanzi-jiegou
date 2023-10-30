@@ -26361,13 +26361,7 @@
         "format": "上下",
         "components": [
             "日",
-            {
-                "format": "上下",
-                "components": [
-                    "一",
-                    "龰"
-                ]
-            }
+            "𤴓"
         ],
         "explain": [
             "是：直也。从日、正。凡是之屬皆从是。",
@@ -73338,6 +73332,11 @@
         "components": [],
         "explain": ""
     },
+    "𫠣": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
     "𢆉": {
         "format": "单体",
         "components": [],
@@ -73429,6 +73428,14 @@
         "components": [
             "又",
             "𰀁"
+        ],
+        "explain": ""
+    },
+    "𤴓": {
+        "format": "上下",
+        "components": [
+            "一",
+            "龰"
         ],
         "explain": ""
     },
