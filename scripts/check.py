@@ -29,7 +29,7 @@ def check():
         '上三包围': 2,  # ⿵
         '上下': 2,      # ⿱
         '上中下': 3,    # ⿳
-        '下半包围': 2,  # ⿶
+        '下三包围': 2,  # ⿶
         '全包围': 2,    # ⿴
         '右上包围': 2,  # ⿹
         '左三包围': 2,  # ⿷
@@ -45,7 +45,7 @@ def check():
         if fmt not in formats:
             formats.append(fmt)
         if len(comps) != COMP_SIZE[fmt]:
-            raise Exception('Error number of components!')
+            raise Exception('The number of components({}) in {} is Error)!'.format(comps, fmt))
 
         for c in comps:
             if c == None:
@@ -56,7 +56,7 @@ def check():
 
             if len(c) > 1:
                 if c[1] != '-' and c[1] != '>':
-                    raise Exception('Unexpected expression: ' + c)
+                    print('Unexpected expression: ' + c)
                 else:
                     if c[1] != '-' or c[2] not in comps:
                         c = c[0]
