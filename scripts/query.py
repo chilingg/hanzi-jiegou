@@ -34,7 +34,7 @@ def queryComponent(queryComp, table):
     
     results = ""
     for char, attrs in table.items():
-        if recursionQuery(attrs["components"]):
+        if char == queryComp or recursionQuery(attrs["components"]):
             results += char
     
     print(results)
