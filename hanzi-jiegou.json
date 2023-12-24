@@ -16858,8 +16858,29 @@
         ]
     },
     "丽": {
-        "format": "单体",
-        "components": [],
+        "format": "上下",
+        "components": [
+            "一",
+            {
+                "format": "左右",
+                "components": [
+                    {
+                        "format": "上三包围",
+                        "components": [
+                            "冂",
+                            "丶"
+                        ]
+                    },
+                    {
+                        "format": "上三包围",
+                        "components": [
+                            "冂",
+                            "丶"
+                        ]
+                    }
+                ]
+            }
+        ],
         "explain": [
             "麗：旅行也。鹿之性，見食急，則必旅行。从鹿，丽聲。《禮》：麗皮納聘。蓋鹿皮也。"
         ]
@@ -71958,9 +71979,10 @@
         "explain": "甹：亟詞也。从丂从由。或曰：甹，俠也。三輔謂輕財者爲甹。"
     },
     "畐": {
-        "format": "上下",
+        "format": "上中下",
         "components": [
-            "𠮛",
+            "一",
+            "口",
             "田"
         ],
         "explain": "畗：滿也。从高省，象高厚之形。凡畗之屬皆从畗。讀若伏。"
@@ -73253,6 +73275,21 @@
         "explain": ""
     },
     "𢆉": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "𰃦": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "𠁳": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "龵": {
         "format": "单体",
         "components": [],
         "explain": ""
