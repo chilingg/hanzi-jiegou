@@ -27602,7 +27602,7 @@
         "format": "上下",
         "components": [
             "⺮",
-            "具"
+            "具>𥃲"
         ],
         "explain": [
             "算：數也。从竹从具。讀若筭。",
@@ -31722,7 +31722,7 @@
     "向": {
         "format": "上三包围",
         "components": [
-            "宀",
+            "宀>𰃦",
             "口"
         ],
         "explain": [
@@ -68952,7 +68952,7 @@
         "format": "左右",
         "components": [
             "鼠",
-            "妟"
+            "晏"
         ],
         "explain": []
     },
@@ -70377,7 +70377,7 @@
     "亼": {
         "format": "上下",
         "components": [
-            "入",
+            "入>人",
             "一"
         ],
         "explain": "亼：三合也。从入、一，象三合之形。凡亼之屬皆从亼。讀若集。"
@@ -73291,6 +73291,11 @@
         "components": [],
         "explain": ""
     },
+    "𢎨": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
     "𠮦": {
         "format": "上下",
         "components": [
@@ -73396,6 +73401,14 @@
         ],
         "explain": ""
     },
+    "𥃲": {
+        "format": "上下",
+        "components": [
+            "目",
+            "廾"
+        ],
+        "explain": ""
+    },
     "𢛳": {
         "format": "上下",
         "components": [
@@ -73450,6 +73463,39 @@
             "冖",
             "又"
         ]
+    },
+    "𰲬": {
+        "format": "左右",
+        "components": [
+            "虫",
+            "车"
+        ],
+        "explain": []
+    },
+    "蹻": {
+        "format": "左右",
+        "components": [
+            "足",
+            "喬"
+        ],
+        "explain": []
+    },
+    "𤧶": {
+        "format": "左右",
+        "components": [
+            "王",
+            "夏"
+        ],
+        "explain": []
+    },
+    "喬": {
+        "format": "上中下",
+        "components": [
+            "夭",
+            "囗",
+            "冋"
+        ],
+        "explain": []
     },
     "𫔴": {
         "format": "上三包围",
