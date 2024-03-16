@@ -38379,7 +38379,7 @@
     "炙": {
         "format": "上下",
         "components": [
-            "肉>月",
+            "肉>𱼀",
             "火"
         ],
         "explain": [
@@ -68880,7 +68880,7 @@
                 "format": "左右",
                 "components": [
                     "禾",
-                    "刃"
+                    "𠚣"
                 ]
             },
             "黑"
@@ -73179,7 +73179,7 @@
     "𬙙": {
         "format": "上下",
         "components": [
-            "𫩏",
+            "罒",
             "方"
         ],
         "explain": ""
@@ -73287,6 +73287,11 @@
         "explain": ""
     },
     "龵": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
+    },
+    "𱼀": {
         "format": "单体",
         "components": [],
         "explain": ""
