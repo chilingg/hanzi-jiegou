@@ -684,7 +684,7 @@
         "format": "左中右",
         "components": [
             "玉>王",
-            "刂",
+            "刂>〢",
             "玉>王"
         ],
         "explain": [
@@ -23661,6 +23661,14 @@
             "金文簡帛皆從「水」，「青」聲，本義是水清。"
         ]
     },
+    "凊": {
+        "format": "左右",
+        "components": [
+            "冫",
+            "青"
+        ],
+        "explain": []
+    },
     "擎": {
         "format": "上下",
         "components": [
@@ -41519,7 +41527,7 @@
         "format": "上下",
         "components": [
             "鸟",
-            "𠘧"
+            "𠘧>几"
         ],
         "explain": [
             "鳧：舒鳧，鶩也。从鳥，𠘧聲。",
@@ -73507,6 +73515,54 @@
         "components": [
             "般",
             "木"
+        ],
+        "explain": []
+    },
+    "寔": {
+        "format": "上下",
+        "components": [
+            "宀",
+            "是"
+        ],
+        "explain": []
+    },
+    "鹍": {
+        "format": "左右",
+        "components": [
+            "昆",
+            "鸟"
+        ],
+        "explain": []
+    },
+    "絜": {
+        "format": "上下",
+        "components": [
+            "㓞",
+            "糸"
+        ],
+        "explain": []
+    },
+    "磻": {
+        "format": "左右",
+        "components": [
+            "石",
+            "番"
+        ],
+        "explain": []
+    },
+    "鄘": {
+        "format": "左右",
+        "components": [
+            "庸",
+            "阝"
+        ],
+        "explain": []
+    },
+    "輶": {
+        "format": "左右",
+        "components": [
+            "車",
+            "酋"
         ],
         "explain": []
     },
