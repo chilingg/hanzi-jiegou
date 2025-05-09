@@ -34948,7 +34948,7 @@
     "鹰": {
         "format": "左上包围",
         "components": [
-            "雁",
+            "䧹",
             "鸟"
         ],
         "explain": [
@@ -73577,6 +73577,14 @@
         "components": [
             "门",
             "隹"
+        ],
+        "explain": ""
+    },
+    "䧹": {
+        "format": "左上包围",
+        "components": [
+            "广",
+            "倠"
         ],
         "explain": ""
     }
