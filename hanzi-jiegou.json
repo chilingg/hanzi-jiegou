@@ -307,13 +307,7 @@
     "敖": {
         "format": "左右",
         "components": [
-            {
-                "format": "上下",
-                "components": [
-                    "出>土",
-                    "方"
-                ]
-            },
+            "𫠤",
             "攵"
         ],
         "explain": [
@@ -73545,6 +73539,14 @@
         "components": [
             "㓞",
             "糸"
+        ],
+        "explain": []
+    },
+    "𫠤": {
+        "format": "上下",
+        "components": [
+            "士",
+            "方"
         ],
         "explain": []
     },
