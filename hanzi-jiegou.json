@@ -12174,7 +12174,7 @@
         "format": "上下",
         "components": [
             "艹",
-            "魝"
+            "𬶀"
         ],
         "explain": [
             "薊：𦬞也。从艸，魝聲。"
@@ -12582,7 +12582,13 @@
     "坚": {
         "format": "上下",
         "components": [
-            "臤",
+            {
+                "format": "左右",
+                "components": [
+                    "〢",
+                    "又"
+                ]
+            },
             "土"
         ],
         "explain": [
@@ -13816,7 +13822,13 @@
     "紧": {
         "format": "上下",
         "components": [
-            "臤",
+            {
+                "format": "左右",
+                "components": [
+                    "〢",
+                    "又"
+                ]
+            },
             "糸"
         ],
         "explain": [
@@ -25826,7 +25838,13 @@
     "肾": {
         "format": "上下",
         "components": [
-            "臤",
+            {
+                "format": "左右",
+                "components": [
+                    "〢",
+                    "又"
+                ]
+            },
             "肉>月"
         ],
         "explain": [
@@ -26850,7 +26868,13 @@
     "竖": {
         "format": "上下",
         "components": [
-            "臤",
+            {
+                "format": "左右",
+                "components": [
+                    "〢",
+                    "又"
+                ]
+            },
             "立"
         ],
         "explain": [
@@ -31330,7 +31354,13 @@
     "贤": {
         "format": "上下",
         "components": [
-            "臤",
+            {
+                "format": "左右",
+                "components": [
+                    "〢",
+                    "又"
+                ]
+            },
             "贝"
         ],
         "explain": [
@@ -73571,6 +73601,14 @@
         "components": [
             "車",
             "酋"
+        ],
+        "explain": []
+    },
+    "𬶀": {
+        "format": "左右",
+        "components": [
+            "鱼",
+            "刂"
         ],
         "explain": []
     },
