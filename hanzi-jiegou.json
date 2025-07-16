@@ -14406,13 +14406,7 @@
     "咎": {
         "format": "上下",
         "components": [
-            {
-                "format": "左下包围",
-                "components": [
-                    "夊",
-                    "人>卜"
-                ]
-            },
+            "处",
             "口"
         ],
         "explain": [
@@ -69540,13 +69534,7 @@
         "format": "上下",
         "components": [
             "又",
-            {
-                "format": "左右",
-                "components": [
-                    "又",
-                    "又"
-                ]
-            }
+            "双"
         ],
         "explain": ""
     },
@@ -69876,13 +69864,7 @@
     "咢": {
         "format": "上下",
         "components": [
-            {
-                "format": "左右",
-                "components": [
-                    "口",
-                    "口"
-                ]
-            },
+            "吅",
             "亏"
         ],
         "explain": "㖾：譁訟也。从吅，屰聲。"
@@ -73628,6 +73610,11 @@
             "尸",
             "示"
         ]
+    },
+    "卌": {
+        "format": "单体",
+        "components": [],
+        "explain": ""
     },
     "䧹": {
         "format": "左上包围",
