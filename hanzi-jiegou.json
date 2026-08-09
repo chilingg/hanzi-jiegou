@@ -38636,13 +38636,7 @@
     "咒": {
         "format": "上下",
         "components": [
-            {
-                "format": "左右",
-                "components": [
-                    "口",
-                    "口"
-                ]
-            },
+            "吅",
             "几"
         ],
         "explain": [
